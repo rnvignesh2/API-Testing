@@ -1,0 +1,16 @@
+{
+ "id":0,
+ "category":{
+              "id":0,
+              "name":"String" 
+              },
+  "name" :"doggie",
+  "photourls":["String","nature"],
+  "tags":[{"id":10,
+           "name":"String"
+           },
+           { "student":"vicky",
+             "rollno":45
+           }],
+  "status":"available"  
+  }       

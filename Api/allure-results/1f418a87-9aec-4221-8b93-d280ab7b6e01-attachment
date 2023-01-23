@@ -1,0 +1,32 @@
+Request method:	POST
+Request URI:	https://test.ouraipro.com/assessment/v1/api/assessment-user/verify/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "vignesh.n@pionglobal.com"
+}
+Request method:	POST
+Request URI:	https://test.ouraipro.com/assessment/v1/api/assessment-user/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbHZjIjoiMmU2NTY5MDUtYmYyNy00YmIxLTg4MzEtNDJlZWU3Nzg2YjRjIiwiaWF0IjoxNjc0MDQ1Nzc1LCJleHAiOjE2NzQwNDYzNzV9.dnjTLXzcIhIvCzQsTHF0PKK2ZAWWalenmOzwojaZ1U8
+				Cookie=_la={ae=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbHYiOiJjYjgxODU0MS1kYWE1LTQ1OTEtODhhYi0wNzA1YWRlZTBlZDQiLCJpYXQiOjE2NzQwNDU3NzUsImV4cCI6MTY3NDA0NjM3NX0.x1GkW-L8eDsxHfMmEE5B9I_Pg9bQTtdUjgfPqS7tBrg}
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "password": "Pass@123"
+}

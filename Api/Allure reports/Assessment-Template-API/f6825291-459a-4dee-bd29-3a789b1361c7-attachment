@@ -1,0 +1,72 @@
+Request method:	GET
+Request URI:	https://test.ouraipro.com/assessment/v1/api/assessment-template
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://test.ouraipro.com/assessment/v1/api/assessment-template
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": "82cccbae-22d3-42dd-b41d-47c41671f22f"
+}
+Request method:	DELETE
+Request URI:	https://test.ouraipro.com/assessment/v1/api/assessment-template
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": "43d8bb9a-2a9b-412a-bb99-8e4f262cd70e"
+}
+Request method:	DELETE
+Request URI:	https://test.ouraipro.com/assessment/v1/api/assessment-template
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": "43e859df-96bf-4220-9050-f2d27916116a"
+}
+Request method:	DELETE
+Request URI:	https://test.ouraipro.com/assessment/v1/api/assessment-template
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": "eea3932b-f2e0-4c39-96fb-6f617ebe6fde"
+}

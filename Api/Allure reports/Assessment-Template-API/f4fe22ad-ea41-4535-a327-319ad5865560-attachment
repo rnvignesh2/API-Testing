@@ -1,0 +1,66 @@
+{
+    "ok": false,
+    "error": true,
+    "warn": false,
+    "errorData": {
+        "assessmentTemplateName": "Assessment Template Name"
+    },
+    "statusCode": 400,
+    "code": "UNI_VIOLATION",
+    "message": "Assessment Template Already Exists - \"Assessment Template Name\" already exists"
+}
+{
+    "ok": false,
+    "error": true,
+    "warn": false,
+    "errorData": {
+        "assessmentTemplateName": "Assessment Template Name"
+    },
+    "statusCode": 400,
+    "code": "UNI_VIOLATION",
+    "message": "Assessment Template Already Exists - \"Assessment Template Name\" already exists"
+}
+{
+    "ok": false,
+    "error": true,
+    "warn": false,
+    "errorData": {
+        "assessmentTemplateName": "Assessment Template Name"
+    },
+    "statusCode": 400,
+    "code": "UNI_VIOLATION",
+    "message": "Assessment Template Already Exists - \"Assessment Template Name\" already exists"
+}
+{
+    "ok": false,
+    "error": true,
+    "warn": false,
+    "errorData": {
+        "assessmentTemplateName": "Assessment Template Name"
+    },
+    "statusCode": 400,
+    "code": "UNI_VIOLATION",
+    "message": "Assessment Template Already Exists - \"Assessment Template Name\" already exists"
+}
+{
+    "ok": false,
+    "error": true,
+    "warn": false,
+    "errorData": {
+        "assessmentTemplateName": "Assessment Template Name"
+    },
+    "statusCode": 400,
+    "code": "UNI_VIOLATION",
+    "message": "Assessment Template Already Exists - \"Assessment Template Name\" already exists"
+}
+{
+    "ok": false,
+    "error": true,
+    "warn": false,
+    "errorData": {
+        "assessmentTemplateName": "Assessment Template Name"
+    },
+    "statusCode": 400,
+    "code": "UNI_VIOLATION",
+    "message": "Assessment Template Already Exists - \"Assessment Template Name\" already exists"
+}

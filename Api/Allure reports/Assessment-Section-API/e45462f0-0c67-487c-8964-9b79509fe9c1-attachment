@@ -1,0 +1,45 @@
+Request method:	POST
+Request URI:	https://test.ouraipro.com/assessment/v1/api/assessment-section/get-by-template-id
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "assessmentTemplateId": "979f07a8-1c51-4519-9c56-b70a7a2c6329"
+}
+Request method:	POST
+Request URI:	https://test.ouraipro.com/assessment/v1/api/assessment-section/get-by-template-id
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "assessmentTemplateId": "979f07a8-1c51-4519-9c56-b70a7a2c6329"
+}
+Request method:	POST
+Request URI:	https://test.ouraipro.com/assessment/v1/api/assessment-section/get-by-template-id
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "assessmentTemplateId": "979f07a8-1c51-4519-9c56-b70a7a2c6329"
+}

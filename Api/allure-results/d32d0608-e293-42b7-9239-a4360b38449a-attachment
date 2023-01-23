@@ -1,0 +1,22 @@
+{
+    "ok": true,
+    "error": false,
+    "warn": false,
+    "data": {
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbHZjIjoiYTM0ZDA0OWUtNDk5Yy00MzU1LTg1MDUtOTMzNmRjZjQ2MmIwIiwiaWF0IjoxNjc0MDQ3NjY1LCJleHAiOjE2NzQwNDgyNjV9.PqKBHMV_VZfOTIfzmNDuiUdesFtsexOg-dk8G_5eCN8"
+    },
+    "message": "Verified Successfully",
+    "code": "VERIFIED",
+    "statusCode": 200
+}
+{
+    "ok": true,
+    "error": false,
+    "warn": false,
+    "data": {
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbHZjIjoiNDQ1OGUyMmYtZWFmZC00NTA5LTk2OTEtODE5ZTQ2OWVhMGQyIiwiaWF0IjoxNjc0MDQ3NjY5LCJleHAiOjE2NzQwNDgyNjl9.f9ez2yeRqYxmIvccdwX8sBJz4fxJjd9LDR5aCotuGh8"
+    },
+    "message": "Login Successful",
+    "code": "PASSWORD_MATCHED",
+    "statusCode": 200
+}

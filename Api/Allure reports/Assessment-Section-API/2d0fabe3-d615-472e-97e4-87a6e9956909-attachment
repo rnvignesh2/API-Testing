@@ -1,0 +1,77 @@
+{
+    "ok": false,
+    "error": true,
+    "warn": false,
+    "errorData": {
+        "assessmentSection": "Assessment Section already exists"
+    },
+    "statusCode": 400,
+    "code": "ASSESSMENT_Section_ALREADY_EXISTS",
+    "message": "\"Assessment Section\" already exists."
+}
+{
+    "ok": false,
+    "error": true,
+    "warn": false,
+    "errorData": {
+        "assessmentSection": "Assessment Section already exists"
+    },
+    "statusCode": 400,
+    "code": "ASSESSMENT_Section_ALREADY_EXISTS",
+    "message": "\"Assessment Section\" already exists."
+}
+{
+    "ok": false,
+    "error": true,
+    "warn": false,
+    "errorData": {
+        "assessmentSection": "Assessment Section already exists"
+    },
+    "statusCode": 400,
+    "code": "ASSESSMENT_Section_ALREADY_EXISTS",
+    "message": "\"Assessment Section\" already exists."
+}
+{
+    "ok": false,
+    "error": true,
+    "warn": false,
+    "errorData": {
+        "assessmentSection": "Assessment Section already exists"
+    },
+    "statusCode": 400,
+    "code": "ASSESSMENT_Section_ALREADY_EXISTS",
+    "message": "\"Assessment Section\" already exists."
+}
+{
+    "ok": false,
+    "error": true,
+    "warn": false,
+    "errorData": {
+        "assessmentSection": "Assessment Section already exists"
+    },
+    "statusCode": 400,
+    "code": "ASSESSMENT_Section_ALREADY_EXISTS",
+    "message": "\"Assessment Section\" already exists."
+}
+{
+    "ok": false,
+    "error": true,
+    "warn": false,
+    "errorData": {
+        "assessmentSection": "Assessment Section already exists"
+    },
+    "statusCode": 400,
+    "code": "ASSESSMENT_Section_ALREADY_EXISTS",
+    "message": "\"Assessment Section\" already exists."
+}
+{
+    "ok": false,
+    "error": true,
+    "warn": false,
+    "errorData": {
+        "assessmentSection": "Assessment Section already exists"
+    },
+    "statusCode": 400,
+    "code": "ASSESSMENT_Section_ALREADY_EXISTS",
+    "message": "\"Assessment Section\" already exists."
+}

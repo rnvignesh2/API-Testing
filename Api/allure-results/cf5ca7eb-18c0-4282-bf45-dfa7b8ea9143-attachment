@@ -1,0 +1,13 @@
+Request method:	GET
+Request URI:	https://api.github/user/repos
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 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
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>

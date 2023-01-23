@@ -1,0 +1,54 @@
+{
+    "statusCode": 400,
+    "message": [
+        "sectionName must be a string",
+        "id must be a string",
+        "id should not be empty"
+    ],
+    "error": "Bad Request"
+}
+{
+    "statusCode": 400,
+    "message": [
+        "sectionName must be a string",
+        "id must be a string",
+        "id should not be empty"
+    ],
+    "error": "Bad Request"
+}
+{
+    "statusCode": 400,
+    "message": [
+        "sectionName must be a string",
+        "id must be a string",
+        "id should not be empty"
+    ],
+    "error": "Bad Request"
+}
+{
+    "statusCode": 400,
+    "message": [
+        "sectionName must be a string",
+        "id must be a string",
+        "id should not be empty"
+    ],
+    "error": "Bad Request"
+}
+{
+    "statusCode": 400,
+    "message": [
+        "sectionName must be a string",
+        "id must be a string",
+        "id should not be empty"
+    ],
+    "error": "Bad Request"
+}
+{
+    "statusCode": 400,
+    "message": [
+        "sectionName must be a string",
+        "id must be a string",
+        "id should not be empty"
+    ],
+    "error": "Bad Request"
+}

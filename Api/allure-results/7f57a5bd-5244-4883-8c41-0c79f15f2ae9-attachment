@@ -1,0 +1,8 @@
+{
+    "statusCode": 400,
+    "message": [
+        "password must be a string",
+        "password should not be empty"
+    ],
+    "error": "Bad Request"
+}

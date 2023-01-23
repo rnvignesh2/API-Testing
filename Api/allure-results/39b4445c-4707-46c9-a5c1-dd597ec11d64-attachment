@@ -1,0 +1,26 @@
+Request method:	POST
+Request URI:	https://test.ouraipro.com/assessment/v1/api/assessment-user/verify/login-code
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "token": "567264"
+}
+Request method:	GET
+Request URI:	https://test.ouraipro.com/assessment/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfY3NyZiI6IjNmNzQzNjM3LTEzNDUtNGQzOS04ZjI0LTI5YzUzOTY1OWRjZiIsImlhdCI6MTY3NDAzMTI0OCwiZXhwIjoxNjc0MTE3NjQ4fQ.3MV0PL8HKdKSjRYeGelM7qJzqXmSnmB4M5-nIrwGX60
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>

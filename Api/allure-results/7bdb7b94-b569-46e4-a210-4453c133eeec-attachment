@@ -1,0 +1,8 @@
+{
+    "ok": false,
+    "error": true,
+    "warn": true,
+    "message": "Login Timeout. Login Expired",
+    "code": "Login Timeout. Login Expired",
+    "statusCode": 500
+}

@@ -1,0 +1,80 @@
+{
+    "statusCode": 400,
+    "message": [
+        "detailedDescription should not be empty",
+        "detailedDescription must be a string",
+        "status should not be empty",
+        "status must be a string"
+    ],
+    "error": "Bad Request"
+}
+{
+    "statusCode": 400,
+    "message": [
+        "detailedDescription should not be empty",
+        "detailedDescription must be a string",
+        "status should not be empty",
+        "status must be a string"
+    ],
+    "error": "Bad Request"
+}
+{
+    "statusCode": 400,
+    "message": [
+        "detailedDescription should not be empty",
+        "detailedDescription must be a string",
+        "status should not be empty",
+        "status must be a string"
+    ],
+    "error": "Bad Request"
+}
+{
+    "statusCode": 400,
+    "message": [
+        "detailedDescription should not be empty",
+        "detailedDescription must be a string",
+        "status should not be empty",
+        "status must be a string"
+    ],
+    "error": "Bad Request"
+}
+{
+    "statusCode": 400,
+    "message": [
+        "detailedDescription should not be empty",
+        "detailedDescription must be a string",
+        "status should not be empty",
+        "status must be a string"
+    ],
+    "error": "Bad Request"
+}
+{
+    "statusCode": 400,
+    "message": [
+        "detailedDescription should not be empty",
+        "detailedDescription must be a string",
+        "status should not be empty",
+        "status must be a string"
+    ],
+    "error": "Bad Request"
+}
+{
+    "statusCode": 400,
+    "message": [
+        "detailedDescription should not be empty",
+        "detailedDescription must be a string",
+        "status should not be empty",
+        "status must be a string"
+    ],
+    "error": "Bad Request"
+}
+{
+    "statusCode": 400,
+    "message": [
+        "detailedDescription should not be empty",
+        "detailedDescription must be a string",
+        "status should not be empty",
+        "status must be a string"
+    ],
+    "error": "Bad Request"
+}

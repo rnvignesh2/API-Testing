@@ -1,0 +1,36 @@
+{
+    "ok": false,
+    "error": true,
+    "warn": false,
+    "message": "Assessment Section does not exist",
+    "statusCode": 404,
+    "errorData": null,
+    "data": {
+        
+    },
+    "code": "ASSESSMENT_SECTION_NOT_FOUND"
+}
+{
+    "ok": false,
+    "error": true,
+    "warn": false,
+    "message": "Assessment Section does not exist",
+    "statusCode": 404,
+    "errorData": null,
+    "data": {
+        
+    },
+    "code": "ASSESSMENT_SECTION_NOT_FOUND"
+}
+{
+    "ok": false,
+    "error": true,
+    "warn": false,
+    "message": "Assessment Section does not exist",
+    "statusCode": 404,
+    "errorData": null,
+    "data": {
+        
+    },
+    "code": "ASSESSMENT_SECTION_NOT_FOUND"
+}

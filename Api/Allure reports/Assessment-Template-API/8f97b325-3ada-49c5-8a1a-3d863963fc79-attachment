@@ -1,0 +1,28 @@
+{
+    "statusCode": 400,
+    "message": [
+        "status should not be empty"
+    ],
+    "error": "Bad Request"
+}
+{
+    "statusCode": 400,
+    "message": [
+        "status should not be empty"
+    ],
+    "error": "Bad Request"
+}
+{
+    "statusCode": 400,
+    "message": [
+        "status should not be empty"
+    ],
+    "error": "Bad Request"
+}
+{
+    "statusCode": 400,
+    "message": [
+        "status should not be empty"
+    ],
+    "error": "Bad Request"
+}

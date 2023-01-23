@@ -1,0 +1,80 @@
+{
+    "statusCode": 400,
+    "message": [
+        "sectionNo must not be greater than 1000000",
+        "sectionNo must be a number conforming to the specified constraints"
+    ],
+    "error": "Bad Request"
+}
+{
+    "statusCode": 400,
+    "message": [
+        "sectionNo must not be greater than 1000000",
+        "sectionNo must be a number conforming to the specified constraints"
+    ],
+    "error": "Bad Request"
+}
+{
+    "statusCode": 400,
+    "message": [
+        "sectionNo must not be greater than 1000000",
+        "sectionNo must be a number conforming to the specified constraints"
+    ],
+    "error": "Bad Request"
+}
+{
+    "statusCode": 400,
+    "message": [
+        "sectionNo must not be greater than 1000000",
+        "sectionNo must be a number conforming to the specified constraints"
+    ],
+    "error": "Bad Request"
+}
+{
+    "statusCode": 400,
+    "message": [
+        "sectionNo must not be greater than 1000000",
+        "sectionNo must be a number conforming to the specified constraints"
+    ],
+    "error": "Bad Request"
+}
+{
+    "statusCode": 400,
+    "message": [
+        "sectionNo must not be greater than 1000000",
+        "sectionNo must be a number conforming to the specified constraints"
+    ],
+    "error": "Bad Request"
+}
+{
+    "statusCode": 400,
+    "message": [
+        "sectionNo must not be greater than 1000000",
+        "sectionNo must be a number conforming to the specified constraints"
+    ],
+    "error": "Bad Request"
+}
+{
+    "statusCode": 400,
+    "message": [
+        "sectionNo must not be greater than 1000000",
+        "sectionNo must be a number conforming to the specified constraints"
+    ],
+    "error": "Bad Request"
+}
+{
+    "statusCode": 400,
+    "message": [
+        "sectionNo must not be greater than 1000000",
+        "sectionNo must be a number conforming to the specified constraints"
+    ],
+    "error": "Bad Request"
+}
+{
+    "statusCode": 400,
+    "message": [
+        "sectionNo must not be greater than 1000000",
+        "sectionNo must be a number conforming to the specified constraints"
+    ],
+    "error": "Bad Request"
+}

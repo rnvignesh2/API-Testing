@@ -1,0 +1,12 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>502 Error</title>
+  </head>
+  <body style="       background: ;       height: 100vh;       overflow: hidden;       display: grid;       place-items: center;     ">
+    <div style="         display: grid;         place-items: center;         border-radius: 50px;         margin: auto;         height: 80vh;         width: 50vw;         background-color: #1b1212;         box-sizing: border-box;         /* From https://css.glass */         background: rgba(255, 255, 255, 1);         border-radius: 16px;         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);         backdrop-filter: blur(12.8px);         -webkit-backdrop-filter: blur(12.8px);         border: 1px solid rgba(255, 255, 255, 0.32);       ">
+      <h1>502</h1>
+    </div>
+  </body>
+</html>

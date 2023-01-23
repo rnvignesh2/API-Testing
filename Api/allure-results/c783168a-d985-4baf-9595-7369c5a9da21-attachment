@@ -1,0 +1,67 @@
+Request method:	POST
+Request URI:	https://test.ouraipro.com/assessment/v1/api/assessment-user/verify/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "vignesh.n@pionglobal.com"
+}
+Request method:	POST
+Request URI:	https://test.ouraipro.com/assessment/v1/api/assessment-user/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbHZjIjoiNmE3MDY2NTUtMmQ5ZC00NTFkLWExY2MtNDA4OTllNWEwNGMwIiwiaWF0IjoxNjc0MDg1OTMyLCJleHAiOjE2NzQwODY1MzJ9.PEI0kJq1F_B3usJzm0wEknis5EC3hickYXJCNXpgxB4
+				Cookie=ae=s%3AeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbHYiOiIyZThjYjUxMC1kOTU1LTQ0ZmEtOWFjZi1iMzVmYzI1YzhhYzQiLCJpYXQiOjE2NzQwODU5MzIsImV4cCI6MTY3NDA4NjUzMn0.ytbKyKSO3LEnZT0a-n8qoNIhVwLL9cJbh1NJVKDmeJg.YDTTkSnVDpKXZLGwg8HkrrvCf175fP5ZQ%2FnJprlC7nA;Path=/;Domain=.ouraipro.com;Max-Age=300;Secure;HttpOnly;Expires=1/18/23 11:57 PM;SameSite=None
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "password": "Pass@123"
+}
+Request method:	POST
+Request URI:	https://test.ouraipro.com/assessment/v1/api/assessment-user/verify/login-code
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbHZjIjoiYTM4YzYxNDMtZDgzNy00ODBjLWI1YzctZTk4NjBmMzAwZWM3IiwiaWF0IjoxNjc0MDg1OTQ3LCJleHAiOjE2NzQwODY1NDd9.JfhNFrnSD9WUAQE5AMvVSxgdu6CO4O1Z477BXBRam_M
+				Cookie=_la=s%3AeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbHYiOiJhYmE1ZDVkYS1kZjE4LTRjZmEtYTNkZi01ZDUxYmM0MmJjMTMiLCJpYXQiOjE2NzQwODU5NDcsImV4cCI6MTY3NDA4NjU0N30.zT2OAd1DD_DdHILHugmtbdd7eEdMjK7-BExa3e8tLyE.bC9HD16KAu7y1RQz0UvFFfvtID2DDfMwtQoKiRx1Eq8
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "token": "450969"
+}
+Request method:	GET
+Request URI:	https://test.ouraipro.com/assessment/v1/api/question-type
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbHZjIjoiYTM4YzYxNDMtZDgzNy00ODBjLWI1YzctZTk4NjBmMzAwZWM3IiwiaWF0IjoxNjc0MDg1OTQ3LCJleHAiOjE2NzQwODY1NDd9.JfhNFrnSD9WUAQE5AMvVSxgdu6CO4O1Z477BXBRam_M
+				Cookie=_la=s%3AeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbHYiOiJhYmE1ZDVkYS1kZjE4LTRjZmEtYTNkZi01ZDUxYmM0MmJjMTMiLCJpYXQiOjE2NzQwODU5NDcsImV4cCI6MTY3NDA4NjU0N30.zT2OAd1DD_DdHILHugmtbdd7eEdMjK7-BExa3e8tLyE.bC9HD16KAu7y1RQz0UvFFfvtID2DDfMwtQoKiRx1Eq8
+				Accept=*/*
+				Cookie=ae=s%3AeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzaWEiOiIwMDRiNjhlNS05NjM1LTRhOTAtYWM5Zi0yZTlkNWIzODczNzQiLCJpYXQiOjE2NzQwODYwMjUsImV4cCI6MTY3NDE3MjQyNX0.o7ky09RWvH692muIkJlXDRilqsTf7jti1J2C0Ki5hWA.20O9OZMHw66p8Uwb9VwnPWI%2B1%2F1zR%2FVLX%2BmH6USeGwg
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "token": "450969"
+}

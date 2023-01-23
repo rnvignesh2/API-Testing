@@ -1,0 +1,23 @@
+{
+    "ok": true,
+    "error": false,
+    "warn": false,
+    "data": {
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbHZjIjoiY2I3MzE5ZTUtNTU2MC00NGQwLWI5NzUtOGQ5Y2MzNmUxODUwIiwiaWF0IjoxNjc0MDI1MzAwLCJleHAiOjE2NzQwMjU5MDB9.PRrBqtEj1LcITcAZkpGUEJ35KObsT5-fiyOEk36b3_c"
+    },
+    "message": "Verified Successfully",
+    "code": "VERIFIED",
+    "statusCode": 200
+}
+<html>
+  <head>
+    <title>400 Bad Request</title>
+  </head>
+  <body>
+    <center>
+      <h1>400 Bad Request</h1>
+    </center>
+    <hr/>
+    <center>nginx</center>
+  </body>
+</html>

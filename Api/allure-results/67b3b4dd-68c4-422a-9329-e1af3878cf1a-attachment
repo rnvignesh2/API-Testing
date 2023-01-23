@@ -1,0 +1,19 @@
+{
+    "ok": true,
+    "error": false,
+    "warn": false,
+    "data": {
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbHZjIjoiNDk5ZjE1M2YtNzM0OS00NDU1LWFjNjEtYzY3ZTY2MDM3NDQwIiwiaWF0IjoxNjc0MDMyMDczLCJleHAiOjE2NzQwMzI2NzN9.Th1DxqgIhzddGY3j2h1aGc_LMpHhLD_TOv3crh9fIEY"
+    },
+    "message": "Verified Successfully",
+    "code": "VERIFIED",
+    "statusCode": 200
+}
+{
+    "ok": false,
+    "error": true,
+    "warn": true,
+    "message": "Login Timeout. Login Expired",
+    "code": "Login Timeout. Login Expired",
+    "statusCode": 500
+}

@@ -1,0 +1,35 @@
+{
+    "statusCode": 400,
+    "message": [
+        "sectionName must be a string"
+    ],
+    "error": "Bad Request"
+}
+{
+    "statusCode": 400,
+    "message": [
+        "sectionName must be a string"
+    ],
+    "error": "Bad Request"
+}
+{
+    "statusCode": 400,
+    "message": [
+        "sectionName must be a string"
+    ],
+    "error": "Bad Request"
+}
+{
+    "statusCode": 400,
+    "message": [
+        "sectionName must be a string"
+    ],
+    "error": "Bad Request"
+}
+{
+    "statusCode": 400,
+    "message": [
+        "sectionName must be a string"
+    ],
+    "error": "Bad Request"
+}

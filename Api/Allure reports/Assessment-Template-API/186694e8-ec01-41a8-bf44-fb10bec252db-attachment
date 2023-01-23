@@ -1,0 +1,93 @@
+Request method:	GET
+Request URI:	https://test.ouraipro.com/assessment/v1/api/assessment-template
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://test.ouraipro.com/assessment/v1/api/assessment-template
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://test.ouraipro.com/assessment/v1/api/assessment-template
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	PUT
+Request URI:	https://test.ouraipro.com/assessment/v1/api/assessment-template
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "detailedDescription": "",
+    "comments": "yes",
+    "id": "eea3932b-f2e0-4c39-96fb-6f617ebe6fde",
+    "assessmentTemplateName": "easyyy",
+    "status": "passed"
+}
+Request method:	PUT
+Request URI:	https://test.ouraipro.com/assessment/v1/api/assessment-template
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "detailedDescription": "",
+    "comments": "yes",
+    "id": "eea3932b-f2e0-4c39-96fb-6f617ebe6fde",
+    "assessmentTemplateName": "easyyy",
+    "status": "passed"
+}
+Request method:	PUT
+Request URI:	https://test.ouraipro.com/assessment/v1/api/assessment-template
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "detailedDescription": "",
+    "comments": "yes",
+    "id": "eea3932b-f2e0-4c39-96fb-6f617ebe6fde",
+    "assessmentTemplateName": "easyyy",
+    "status": "passed"
+}

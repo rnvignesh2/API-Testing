@@ -1,0 +1,12 @@
+{
+    "ok": true,
+    "error": false,
+    "warn": false,
+    "message": "Assessment Dimension created successfully",
+    "statusCode": 201,
+    "errorData": null,
+    "data": {
+        
+    },
+    "code": 201
+}

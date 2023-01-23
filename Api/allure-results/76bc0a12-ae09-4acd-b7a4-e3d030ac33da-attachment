@@ -1,0 +1,11 @@
+{
+    "ok": true,
+    "error": false,
+    "warn": false,
+    "data": {
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbHZjIjoiZGEyNmVmZGQtOWIwMC00NWY3LWJkMGYtMTA2N2U0Y2FmZDlhIiwiaWF0IjoxNjc0MDMxNzUzLCJleHAiOjE2NzQwMzIzNTN9.agHOzIAmU43hmWThwXxE6i1ZqpwlVd6jfZ-fPm0_1yc"
+    },
+    "message": "Verified Successfully",
+    "code": "VERIFIED",
+    "statusCode": 200
+}

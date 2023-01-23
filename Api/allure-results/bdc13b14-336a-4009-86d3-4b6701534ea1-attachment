@@ -1,0 +1,34 @@
+{
+    "ok": true,
+    "error": false,
+    "warn": false,
+    "data": {
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbHZjIjoiNDA2NWI1ZjYtOGY3Mi00MGI4LWJkZGQtMzc4OGY3OTRjY2FmIiwiaWF0IjoxNjc0MDg0MDI5LCJleHAiOjE2NzQwODQ2Mjl9.QJXqFhdsW6O-JVeJS6h-mQ1ujv2VaUicRrtWi_hsgUI"
+    },
+    "message": "Verified Successfully",
+    "code": "VERIFIED",
+    "statusCode": 200
+}
+{
+    "ok": true,
+    "error": false,
+    "warn": false,
+    "data": {
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbHZjIjoiYWJjNTg2YTMtOWUxMy00YjA1LThlZTktMDZlNjU1Yzg3MzNmIiwiaWF0IjoxNjc0MDg0MDMzLCJleHAiOjE2NzQwODQ2MzN9.iv2y5c4UvdFDBbZVC8ppbTB8SsQRkpY5-8qqNiq_8eg"
+    },
+    "message": "Login Successful",
+    "code": "PASSWORD_MATCHED",
+    "statusCode": 200
+}
+<html>
+  <head>
+    <title>400 Bad Request</title>
+  </head>
+  <body>
+    <center>
+      <h1>400 Bad Request</h1>
+    </center>
+    <hr/>
+    <center>nginx</center>
+  </body>
+</html>

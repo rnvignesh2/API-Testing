@@ -1,0 +1,1489 @@
+{
+    "ok": true,
+    "error": false,
+    "warn": false,
+    "data": {
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbHZjIjoiYzEzZmM5ZDQtOWY3Ni00YzRjLTlkYTMtZWMzMDczN2FjZDU2IiwiaWF0IjoxNjc0MDgyNzgzLCJleHAiOjE2NzQwODMzODN9.iMdoc8j_xqN86hFNHE-0x9Yr9OivrHf0PO5OiGDm4C8"
+    },
+    "message": "Verified Successfully",
+    "code": "VERIFIED",
+    "statusCode": 200
+}
+{
+    "ok": true,
+    "error": false,
+    "warn": false,
+    "data": {
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbHZjIjoiNGNjZDVhZDktMjk1MS00ZmY3LTg1MjEtNDNiNDc4ZTJlYjNlIiwiaWF0IjoxNjc0MDgyNzg3LCJleHAiOjE2NzQwODMzODd9.fl0nIxEVWMZwg7XQWWqFMvxwLtXdFQYVm6ZaZjLwG3g"
+    },
+    "message": "Login Successful",
+    "code": "PASSWORD_MATCHED",
+    "statusCode": 200
+}
+{
+    "ok": true,
+    "error": false,
+    "message": "Welcome back Vignesh N",
+    "data": {
+        "getAssessmentUser": {
+            "id": "f49e6e2a-ecf3-4a83-9da9-ba7a20f5a1f4",
+            "email": "vignesh.n@pionglobal.com",
+            "assessmentUserDetail": {
+                "id": "f7328030-efe2-4cfb-8c12-20de6abd68eb",
+                "firstName": "Vignesh",
+                "lastName": "N",
+                "geoName": "AS",
+                "profilePic": null,
+                "country": "India",
+                "dialingCode": "91",
+                "contactNumber": "9901139984"
+            },
+            "assessmentUserRole": {
+                "id": "37f40b7e-0fc3-496c-970d-5ebfbcd66fb2",
+                "userRole": {
+                    "id": "96407222-41ae-4888-a0f2-fc625cbab0f7",
+                    "roleCode": "AD",
+                    "roleName": "Admin"
+                }
+            }
+        },
+        "getAssessmentUserRoles": {
+            "isPrimary": true,
+            "userRoleL1MenuPermission": [
+                {
+                    "id": "d3ceb607-cdef-416b-971f-06fc37c963fe",
+                    "roleCode": "AD",
+                    "level1Menu": {
+                        "id": "d9b67c8e-2f51-4800-8b90-121e3b694cea",
+                        "l1MenuName": "Dashboard",
+                        "l1MenuGroupId": "1",
+                        "l1PageLink": "/exco/dashboard",
+                        "l1MenuIcon": "l1images-c10693b8-84f7-493a-a32d-fc16e0b50b77.png",
+                        "userRoleL1ServicePermission": [
+                            
+                        ]
+                    },
+                    "userRoleL2MenuPermission": [
+                        
+                    ]
+                },
+                {
+                    "id": "0a441f7d-e8d0-4d12-ac8c-d0e0f1002f67",
+                    "roleCode": "AD",
+                    "level1Menu": {
+                        "id": "9bf0cf78-2f0f-4a05-b9ad-a97b016c2066",
+                        "l1MenuName": "Customers",
+                        "l1MenuGroupId": "2",
+                        "l1PageLink": "/exco/customers",
+                        "l1MenuIcon": "/l1images/54d3311a-15f7-4e6d-ad99-b59231bac010.png",
+                        "userRoleL1ServicePermission": [
+                            
+                        ]
+                    },
+                    "userRoleL2MenuPermission": [
+                        {
+                            "id": "2210ea63-0301-40e0-90e6-248694bda044",
+                            "level2Menu": {
+                                "id": "d3ea4bf7-dbdb-4b7a-b36b-dbf767293add",
+                                "l2MenuName": "Accounts",
+                                "l2MenuGroupId": "2.1",
+                                "l2PageLink": "/exco/customers/accounts",
+                                "l2MenuIcon": "/l2images/8d096e89-f8c1-4012-a9c7-f77daea8108e.png",
+                                "userRoleL2ServicePermission": [
+                                    {
+                                        "id": "b26a57ae-170c-4a79-a827-e52ccb34b3a4",
+                                        "applicationService": {
+                                            "id": "c3edc17e-6982-4ebe-a09c-0ef87db380d8",
+                                            "name": "AP.Customers.Accounts.delete",
+                                            "url": "/v1/api/assessment-customer"
+                                        }
+                                    },
+                                    {
+                                        "id": "69a90b8d-3783-4570-90a5-6a1a3781acd7",
+                                        "applicationService": {
+                                            "id": "3e012592-40d8-4a78-84dc-65dade543d85",
+                                            "name": "AP.Customers.Accounts.update",
+                                            "url": "/v1/api/assessment-customer"
+                                        }
+                                    },
+                                    {
+                                        "id": "ceec7588-5608-4f6f-9161-9674a5545438",
+                                        "applicationService": {
+                                            "id": "e56d7eeb-2d60-48e9-881f-4dd80dd6bbaf",
+                                            "name": "AP.Customers.Accounts.create",
+                                            "url": "/v1/api/assessment-customer"
+                                        }
+                                    },
+                                    {
+                                        "id": "ac09387c-8dbb-412e-b5bf-f176242444fe",
+                                        "applicationService": {
+                                            "id": "6cc5286e-6e95-4a89-8d90-9dc141c464e4",
+                                            "name": "AP.Customers.Accounts.get",
+                                            "url": "/v1/api/assessment-customer"
+                                        }
+                                    }
+                                ]
+                            },
+                            "userRoleL3MenuPermission": [
+                                
+                            ]
+                        },
+                        {
+                            "id": "a6fc6289-90cd-492a-9156-7bce061a1e53",
+                            "level2Menu": {
+                                "id": "acc59cb5-e4e7-4e0c-ad4f-1e262452e184",
+                                "l2MenuName": "Users",
+                                "l2MenuGroupId": "2.2",
+                                "l2PageLink": "/exco/customers/users",
+                                "l2MenuIcon": "/l2images/64f339dc-06f2-4abb-a0dd-741929bcbe02.png",
+                                "userRoleL2ServicePermission": [
+                                    {
+                                        "id": "e724a312-3bf5-440f-ab4e-6392ebdbada2",
+                                        "applicationService": {
+                                            "id": "9991b46c-c332-4684-93ef-5e31711cfab8",
+                                            "name": "AP.Customers.Users.delete",
+                                            "url": "/v1/api/assessment-customer-user"
+                                        }
+                                    },
+                                    {
+                                        "id": "9407e138-3746-4f30-bf5a-c04cba305a30",
+                                        "applicationService": {
+                                            "id": "28d10d55-cbc1-4077-99eb-3f73f682b0f2",
+                                            "name": "AP.Customers.Users.update",
+                                            "url": "/v1/api/assessment-customer-user"
+                                        }
+                                    },
+                                    {
+                                        "id": "c9d1aab7-0af2-478f-8a39-787749824477",
+                                        "applicationService": {
+                                            "id": "1b85c9bb-185d-46d0-90d5-10c6fe1b8cd4",
+                                            "name": "AP.Customers.Users.create",
+                                            "url": "/v1/api/assessment-customer-user"
+                                        }
+                                    },
+                                    {
+                                        "id": "694efce7-0d56-475a-bbfa-0cfce663128a",
+                                        "applicationService": {
+                                            "id": "0e6e262a-32b2-4640-9035-3936af7a27fd",
+                                            "name": "AP.Customers.Users.get",
+                                            "url": "/v1/api/assessment-customer-user"
+                                        }
+                                    }
+                                ]
+                            },
+                            "userRoleL3MenuPermission": [
+                                
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "43daad48-48a9-4c0c-b210-e8801c50bfd9",
+                    "roleCode": "AD",
+                    "level1Menu": {
+                        "id": "f58e8e26-d8a9-4d65-ab42-621d673df9a3",
+                        "l1MenuName": "Prepare",
+                        "l1MenuGroupId": "3",
+                        "l1PageLink": "/exco/prepare",
+                        "l1MenuIcon": "/l1images/688a013c-4b8a-4240-939b-e35862552e3a.png",
+                        "userRoleL1ServicePermission": [
+                            {
+                                "id": "ff03b18f-47ea-43fa-baaa-159e674988d1",
+                                "applicationService": {
+                                    "id": "cec76e51-142b-429f-9edf-7adb473c4c91",
+                                    "name": "AP.Prepare.getAssessTemp",
+                                    "url": "/v1/api/assessment-template"
+                                }
+                            },
+                            {
+                                "id": "fae696b2-3b05-4e2c-a507-445e20d9b34f",
+                                "applicationService": {
+                                    "id": "890303d4-243a-4e5b-bc2a-61728bbeea47",
+                                    "name": "AP.Prepare.createAssessTemp",
+                                    "url": "/v1/api/assessment-template"
+                                }
+                            },
+                            {
+                                "id": "cd39fd70-2e45-48fd-bfaa-c648dfbfd872",
+                                "applicationService": {
+                                    "id": "59bc4499-07a3-4fcb-8911-b2ea1c44e9be",
+                                    "name": "AP.Prepare.updateAssessTemp",
+                                    "url": "/v1/api/assessment-template"
+                                }
+                            },
+                            {
+                                "id": "37d623c2-1b04-44a7-aa53-2c8bf41142ea",
+                                "applicationService": {
+                                    "id": "9524f105-572f-42d4-b82e-fe0eca97089e",
+                                    "name": "AP.Prepare.deleteAssessTemp",
+                                    "url": "/v1/api/assessment-template"
+                                }
+                            },
+                            {
+                                "id": "b223cc0b-9a8a-48d8-9a70-d455b82f5972",
+                                "applicationService": {
+                                    "id": "4c8176c8-1e22-41c8-911f-29e81a7fe8a1",
+                                    "name": "AP.Prepare.getAssessTempCount",
+                                    "url": "/v1/api/assessment-template/count"
+                                }
+                            },
+                            {
+                                "id": "6d865510-ef3b-4941-b9d0-c4186cc6be40",
+                                "applicationService": {
+                                    "id": "9db5acdc-8dbc-4762-93e4-331a4f95623f",
+                                    "name": "AP.Prepare.getAssesSecByTemId",
+                                    "url": "/v1/api/assessment-section/get-by-template-id"
+                                }
+                            },
+                            {
+                                "id": "4cf3cf65-bf52-4183-a812-1475ac763b63",
+                                "applicationService": {
+                                    "id": "18822a35-1e03-4974-bf2e-1a1d6548e797",
+                                    "name": "AP.Prepare.createAssesSec",
+                                    "url": "/v1/api/assessment-section"
+                                }
+                            },
+                            {
+                                "id": "ec34cdcb-ec3c-4354-9baa-438117405e71",
+                                "applicationService": {
+                                    "id": "383972ec-390f-4bf3-835b-7990f1547dd0",
+                                    "name": "AP.Prepare.updateAssesSec",
+                                    "url": "/v1/api/assessment-section"
+                                }
+                            },
+                            {
+                                "id": "98a10032-cc34-4b3a-917d-12a0c6f8db36",
+                                "applicationService": {
+                                    "id": "173aafea-775e-40c1-b61b-3ee711192639",
+                                    "name": "AP.Prepare.deleteAssesSec",
+                                    "url": "/v1/api/assessment-section"
+                                }
+                            },
+                            {
+                                "id": "1cb9302a-3bba-4162-821c-3c25814f86ee",
+                                "applicationService": {
+                                    "id": "6d208395-551e-4c23-beb6-a6390d326e6b",
+                                    "name": "AP.Prepare.getAssesDimsByTemId",
+                                    "url": "/v1/api/assessment-dimension/get-by-template-id"
+                                }
+                            },
+                            {
+                                "id": "3c678b55-0a6e-4c7b-917e-97cd770f26c7",
+                                "applicationService": {
+                                    "id": "3cebf039-6137-4813-8f0e-63155f0b66ce",
+                                    "name": "AP.Prepare.createAssesDims",
+                                    "url": "/v1/api/assessment-dimension"
+                                }
+                            },
+                            {
+                                "id": "d4d9407a-d779-45bd-a8ff-527d7f273da7",
+                                "applicationService": {
+                                    "id": "d8f2b940-299b-41c5-8f0c-2debe3cb1510",
+                                    "name": "AP.Prepare.updateAssesDims",
+                                    "url": "/v1/api/assessment-dimension"
+                                }
+                            },
+                            {
+                                "id": "6df8a808-aee6-4647-82e0-089a3051e67c",
+                                "applicationService": {
+                                    "id": "ebf54744-4005-48b7-99b4-aba3c4919c76",
+                                    "name": "AP.Prepare.deleteAssesDims",
+                                    "url": "/v1/api/assessment-dimension"
+                                }
+                            },
+                            {
+                                "id": "00ef9ef7-7e45-4c33-86cd-193ec327b2a9",
+                                "applicationService": {
+                                    "id": "b2055d05-c03d-41ec-b389-2633a92df089",
+                                    "name": "AP.Prepare.getAssesQnByTemId",
+                                    "url": "/v1/api/assessment-question/get-by-template-id"
+                                }
+                            },
+                            {
+                                "id": "765608e7-1d9f-4742-878f-140d7cf0f8fa",
+                                "applicationService": {
+                                    "id": "f59676a5-8fa1-440a-9f5b-6e6be057073c",
+                                    "name": "AP.Prepare.createAssesQn",
+                                    "url": "/v1/api/assessment-question"
+                                }
+                            },
+                            {
+                                "id": "c8b229c5-59c0-4b67-a443-6d0ea79f68da",
+                                "applicationService": {
+                                    "id": "4ef29bc6-71e2-482b-8628-9a0f58857398",
+                                    "name": "AP.Prepare.updateAssesQn",
+                                    "url": "/v1/api/assessment-question"
+                                }
+                            },
+                            {
+                                "id": "046a6d38-56e2-4f39-bdde-fdc7f808bb97",
+                                "applicationService": {
+                                    "id": "8e9b22c0-3ab5-4714-a098-6647cc53744b",
+                                    "name": "AP.Prepare.deleteAssesQn",
+                                    "url": "/v1/api/assessment-question"
+                                }
+                            }
+                        ]
+                    },
+                    "userRoleL2MenuPermission": [
+                        
+                    ]
+                },
+                {
+                    "id": "840b21b1-ef43-4c19-b461-9aa04ee85f8a",
+                    "roleCode": "AD",
+                    "level1Menu": {
+                        "id": "2ee60f05-ca5e-4dd7-91de-971946d8e988",
+                        "l1MenuName": "Publish",
+                        "l1MenuGroupId": "4",
+                        "l1PageLink": "/exco/publish",
+                        "l1MenuIcon": "/l1images/a8a5e85e-cf56-401d-bf6a-4fd06c94c675.png",
+                        "userRoleL1ServicePermission": [
+                            {
+                                "id": "de15b7af-42a8-4eaa-a38d-662e96fcb439",
+                                "applicationService": {
+                                    "id": "522ae072-0893-405b-be8b-81adeb96679a",
+                                    "name": "AP.Publish.getAssessTrack",
+                                    "url": "/v1/api/assessment-tracking"
+                                }
+                            },
+                            {
+                                "id": "1f662644-4945-428a-a40e-bdab82f1f7c0",
+                                "applicationService": {
+                                    "id": "850296a4-4271-47db-93ec-b8a8417bc547",
+                                    "name": "AP.Publish.createAssessTrack",
+                                    "url": "/v1/api/assessment-tracking"
+                                }
+                            },
+                            {
+                                "id": "851a370f-d7a5-4de8-8ea7-6b8c48cfcae3",
+                                "applicationService": {
+                                    "id": "3c55d3de-ea67-48ef-874b-193f040053d3",
+                                    "name": "AP.Publish.updateAssessTrack",
+                                    "url": "/v1/api/assessment-tracking"
+                                }
+                            },
+                            {
+                                "id": "ed098f82-4b39-465d-8bbf-c1f0b48fd5d9",
+                                "applicationService": {
+                                    "id": "545df1fc-a135-4d3e-9ad6-d807ead74270",
+                                    "name": "AP.Publish.deleteAssessTrack",
+                                    "url": "/v1/api/assessment-tracking"
+                                }
+                            },
+                            {
+                                "id": "874d0cf2-193f-49e4-9fc0-8694cdb5dfd1",
+                                "applicationService": {
+                                    "id": "22be88db-c591-496b-96a0-6cf1629104f9",
+                                    "name": "AP.Publish.getTemplateByTrackIdTwo",
+                                    "url": "/v1/api/assessment-tracking/get-template-by-tracking-id-two"
+                                }
+                            },
+                            {
+                                "id": "5aca31cb-3428-4292-9812-dd1365bb40ee",
+                                "applicationService": {
+                                    "id": "a8268522-77d9-4494-9383-e0c83465bccc",
+                                    "name": "AP.Publish.getTemplateByTrackId",
+                                    "url": "/v1/api/assessment-tracking/get-template-by-tracking-id"
+                                }
+                            },
+                            {
+                                "id": "548be574-a4df-4529-909e-c9abfdc319d1",
+                                "applicationService": {
+                                    "id": "e58f6ceb-f16a-4fbe-a78b-c28d99e32d64",
+                                    "name": "AP.Publish.getAssrMap",
+                                    "url": "/v1/api/assessor-mapping"
+                                }
+                            },
+                            {
+                                "id": "5c35a117-615d-4c93-962c-8cd1cb637faa",
+                                "applicationService": {
+                                    "id": "a86e8104-7ed4-44f7-a95e-c09352d41afb",
+                                    "name": "AP.Publish.createAssrMap",
+                                    "url": "/v1/api/assessor-mapping"
+                                }
+                            },
+                            {
+                                "id": "efabe3e9-f096-43de-8d45-b16d117369d3",
+                                "applicationService": {
+                                    "id": "003a7be3-9434-4502-910f-6e88e55b21cf",
+                                    "name": "AP.Publish.updateAssrMap",
+                                    "url": "/v1/api/assessor-mapping"
+                                }
+                            },
+                            {
+                                "id": "0e9818a8-54c4-44f9-9278-1fe27f13800b",
+                                "applicationService": {
+                                    "id": "5c00e4ff-202f-43a8-ad15-c7be3e788c0a",
+                                    "name": "AP.Publish.getAssrMapByTrackId",
+                                    "url": "/v1/api/assessor-mapping/get-by-tracking-id"
+                                }
+                            },
+                            {
+                                "id": "dba7a085-fac1-4298-805b-7cf58a4a5201",
+                                "applicationService": {
+                                    "id": "ed0ea1e2-2301-4a33-b6ab-7a207b178712",
+                                    "name": "AP.Publish.deleteAssrMap",
+                                    "url": "/v1/api/assessor-mapping"
+                                }
+                            },
+                            {
+                                "id": "bed8d59b-b424-4d06-badc-208aaab58573",
+                                "applicationService": {
+                                    "id": "a2ad57ec-970e-40a1-b2cd-7917e1ba94eb",
+                                    "name": "AP.Publish.uploadClientUsers",
+                                    "url": "/v1/api/excel-parser/batch-upload-assessment-customer-user"
+                                }
+                            },
+                            {
+                                "id": "eb86a665-f30b-4ac4-878b-9dd9212ca36a",
+                                "applicationService": {
+                                    "id": "2999dde8-5a09-4411-8905-671cf5ae0613",
+                                    "name": "AP.Publish.uploadAssessorUsers",
+                                    "url": "/v1/api/excel-parser/batch-upload-assessor"
+                                }
+                            }
+                        ]
+                    },
+                    "userRoleL2MenuPermission": [
+                        
+                    ]
+                },
+                {
+                    "id": "55d51ce5-6697-466e-9b54-7ef803626ba7",
+                    "roleCode": "AD",
+                    "level1Menu": {
+                        "id": "bd9a46e3-9b37-4e1c-9476-9f35184da178",
+                        "l1MenuName": "Report",
+                        "l1MenuGroupId": "5",
+                        "l1PageLink": "/exco/report",
+                        "l1MenuIcon": "/l1images/ccb374e0-82e4-43a2-a699-6badc354747a.png",
+                        "userRoleL1ServicePermission": [
+                            {
+                                "id": "84de42b3-1508-47e3-9ba1-30579c7b9c5c",
+                                "applicationService": {
+                                    "id": "d57776bc-db27-4b08-ba5b-39f741b7ea3a",
+                                    "name": "AP.Report.get",
+                                    "url": "/v1/api/response-tracking"
+                                }
+                            },
+                            {
+                                "id": "4cf3fc41-c685-476b-9afb-bbaaeb5ba1e2",
+                                "applicationService": {
+                                    "id": "2587b496-4f42-4197-b0c5-04f7cb3d4e8e",
+                                    "name": "AP.Report.create",
+                                    "url": "/v1/api/response-tracking"
+                                }
+                            },
+                            {
+                                "id": "ae62a939-874c-425f-b712-ac2c22b49fe0",
+                                "applicationService": {
+                                    "id": "beabfb96-b9c9-4ae6-a0b1-3fd987e74e03",
+                                    "name": "AP.Report.update",
+                                    "url": "/v1/api/response-tracking"
+                                }
+                            },
+                            {
+                                "id": "6e23ad58-f044-47e9-b672-72c6b52e0a14",
+                                "applicationService": {
+                                    "id": "906baa99-3c05-40af-be82-8d4cd858f41d",
+                                    "name": "AP.Report.delete",
+                                    "url": "/v1/api/response-tracking"
+                                }
+                            }
+                        ]
+                    },
+                    "userRoleL2MenuPermission": [
+                        
+                    ]
+                },
+                {
+                    "id": "af89720d-36d6-462a-aa4c-2b39ce8c9e65",
+                    "roleCode": "AD",
+                    "level1Menu": {
+                        "id": "7965e25e-9d33-415b-8a6e-a6df4af93b9f",
+                        "l1MenuName": "IAM",
+                        "l1MenuGroupId": "6",
+                        "l1PageLink": "/exco/iam",
+                        "l1MenuIcon": "/l1images/7d78c2fb-7072-4f35-8592-a3246a69eea7.png",
+                        "userRoleL1ServicePermission": [
+                            
+                        ]
+                    },
+                    "userRoleL2MenuPermission": [
+                        {
+                            "id": "47bd9b9e-416a-4250-b63e-62e1e99abb21",
+                            "level2Menu": {
+                                "id": "93959bb3-ed54-4cc8-a065-e19670a5c425",
+                                "l2MenuName": "App Services",
+                                "l2MenuGroupId": "6.1",
+                                "l2PageLink": "/exco/iam/app-services",
+                                "l2MenuIcon": "/l2images/8fb8816e-8fa5-44d3-bc3b-e309f78e425b.png",
+                                "userRoleL2ServicePermission": [
+                                    
+                                ]
+                            },
+                            "userRoleL3MenuPermission": [
+                                {
+                                    "id": "c2b9ef81-97f3-4777-94e4-5c285121971c",
+                                    "level3Menu": {
+                                        "id": "5be4d5a6-0cc7-469f-b9a0-a3fe4854180b",
+                                        "l3MenuName": "Menu Management",
+                                        "l3MenuGroupId": "6.1.1",
+                                        "l3PageLink": "/exco/iam/menu-management",
+                                        "l3MenuIcon": "/l3images/927fc292-b147-4ec8-85c7-d10790a12882.png"
+                                    },
+                                    "userRoleL3ServicePermission": [
+                                        {
+                                            "id": "c366d6b0-563c-4c15-b25e-370c923e8dc5",
+                                            "applicationService": {
+                                                "id": "a72837ad-36bf-40d3-aaa3-260252d635df",
+                                                "name": "AP.IAM.AppServices.MenuManagement.l2MenuGetLevel2ByLevel1MenuId",
+                                                "url": "/v1/api/level2-menu"
+                                            }
+                                        },
+                                        {
+                                            "id": "df795d58-6f85-43b3-bdda-35c331838ac1",
+                                            "applicationService": {
+                                                "id": "110d3602-df76-48ee-9b86-fef2dc6f6a06",
+                                                "name": "AP.IAM.AppServices.MenuManagement.l1MenuDelete",
+                                                "url": "/v1/api/level1-menu"
+                                            }
+                                        },
+                                        {
+                                            "id": "b51fd6be-1ed0-4ff0-90b9-150c302c8e3a",
+                                            "applicationService": {
+                                                "id": "c090a706-7b23-451f-8427-a9d812e7826b",
+                                                "name": "AP.IAM.AppServices.MenuManagement.l1MenuUpdate",
+                                                "url": "/v1/api/level1-menu"
+                                            }
+                                        },
+                                        {
+                                            "id": "d346197f-abb0-41d7-8ac8-0b5f58d3eaf1",
+                                            "applicationService": {
+                                                "id": "8567542c-7c0a-4bbb-b666-873774b03429",
+                                                "name": "AP.IAM.AppServices.MenuManagement.l1MenuCreate",
+                                                "url": "/v1/api/level1-menu"
+                                            }
+                                        },
+                                        {
+                                            "id": "5d8d4d1d-249f-4092-a863-86e3de5f6cee",
+                                            "applicationService": {
+                                                "id": "a62b66de-897f-469d-9125-0dd4e6538d0c",
+                                                "name": "AP.IAM.AppServices.MenuManagement.l1MenuGetImage",
+                                                "url": "/v1/api/level1-menu"
+                                            }
+                                        },
+                                        {
+                                            "id": "0d5c91e7-6199-43a2-952f-a49be72147de",
+                                            "applicationService": {
+                                                "id": "b864f315-8fc2-434e-ad74-f39a941d80e4",
+                                                "name": "AP.IAM.AppServices.MenuManagement.l1MenuGet",
+                                                "url": "/v1/api/level1-menu"
+                                            }
+                                        },
+                                        {
+                                            "id": "89301b7b-cb83-4243-bfff-a47ef2877539",
+                                            "applicationService": {
+                                                "id": "eabf8ade-1201-49bb-9b43-4849cd4271f0",
+                                                "name": "AP.IAM.AppServices.MenuManagement.l3MenuDelete",
+                                                "url": "/v1/api/level3-menu"
+                                            }
+                                        },
+                                        {
+                                            "id": "bbbc74e1-4cf6-4ee6-998f-4e6db436a8cb",
+                                            "applicationService": {
+                                                "id": "ebcbf6ca-e5f1-47e9-8c30-9902bafc8801",
+                                                "name": "AP.IAM.AppServices.MenuManagement.l3MenuUpdate",
+                                                "url": "/v1/api/level3-menu"
+                                            }
+                                        },
+                                        {
+                                            "id": "92833fae-97aa-44b4-94e7-e1928d5d5b5f",
+                                            "applicationService": {
+                                                "id": "c1c29c46-b75e-4992-a448-b6113485bc5d",
+                                                "name": "AP.IAM.AppServices.MenuManagement.l3MenuCreate",
+                                                "url": "/v1/api/level3-menu"
+                                            }
+                                        },
+                                        {
+                                            "id": "37538d50-fd61-447f-bcf3-2a5f464e31d0",
+                                            "applicationService": {
+                                                "id": "648c6348-783c-4170-b6df-b7145ae47544",
+                                                "name": "AP.IAM.AppServices.MenuManagement.l3MenuGetLevel2ByLevel2MenuId",
+                                                "url": "/v1/api/level3-menu"
+                                            }
+                                        },
+                                        {
+                                            "id": "80a16187-0eac-4efa-9692-7b362cad2760",
+                                            "applicationService": {
+                                                "id": "884d665e-98d8-4878-9366-abbb2b237f5e",
+                                                "name": "AP.IAM.AppServices.MenuManagement.l3MenuGetImage",
+                                                "url": "/v1/api/level3-menu"
+                                            }
+                                        },
+                                        {
+                                            "id": "636974d2-bfea-42b0-8aed-8374640b4438",
+                                            "applicationService": {
+                                                "id": "bf6ebdb7-5b3f-44d1-8384-f48a451d351f",
+                                                "name": "AP.IAM.AppServices.MenuManagement.l3MenuGet",
+                                                "url": "/v1/api/level3-menu"
+                                            }
+                                        },
+                                        {
+                                            "id": "58f448b6-eb3d-4095-83d5-95016bcb45fd",
+                                            "applicationService": {
+                                                "id": "d643a0f9-98cb-49fb-b8e6-2a493eee30a7",
+                                                "name": "AP.IAM.AppServices.MenuManagement.l2MenuDelete",
+                                                "url": "/v1/api/level2-menu"
+                                            }
+                                        },
+                                        {
+                                            "id": "8262e443-1fdc-4936-882d-052fbb88382f",
+                                            "applicationService": {
+                                                "id": "393cf8cb-413b-44d0-b5fe-f30180ba5bb3",
+                                                "name": "AP.IAM.AppServices.MenuManagement.l2MenuUpdate",
+                                                "url": "/v1/api/level2-menu"
+                                            }
+                                        },
+                                        {
+                                            "id": "711e45a5-a5df-403a-beaf-8ad05024097a",
+                                            "applicationService": {
+                                                "id": "bdef6095-84f8-418b-b2f3-7cebaaf03ac5",
+                                                "name": "AP.IAM.AppServices.MenuManagement.l2MenuCreate",
+                                                "url": "/v1/api/level2-menu"
+                                            }
+                                        },
+                                        {
+                                            "id": "f67abff3-1fb9-429c-a252-6182a32bea96",
+                                            "applicationService": {
+                                                "id": "10a7669b-3fbf-420d-9648-1b259a86dc73",
+                                                "name": "AP.IAM.AppServices.MenuManagement.l2MenuGetImage",
+                                                "url": "/v1/api/level2-menu"
+                                            }
+                                        },
+                                        {
+                                            "id": "cc903d60-2868-4dad-b03a-45a8ee69e956",
+                                            "applicationService": {
+                                                "id": "92dbdb5d-f5cb-4629-85cf-7577ff15ab44",
+                                                "name": "AP.IAM.AppServices.MenuManagement.l2MenuGet",
+                                                "url": "/v1/api/level2-menu"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "1c11564a-a4eb-4967-975a-8e95936f1ee2",
+                                    "level3Menu": {
+                                        "id": "3701e2f0-3b01-400f-8d90-c3ace884d02a",
+                                        "l3MenuName": "API Management",
+                                        "l3MenuGroupId": "6.1.2",
+                                        "l3PageLink": "/exco/iam/api-management",
+                                        "l3MenuIcon": "/l3images/d168a7d3-ccbf-4b5d-9ef1-79912315ed2b.png"
+                                    },
+                                    "userRoleL3ServicePermission": [
+                                        {
+                                            "id": "3ac56adc-e7e8-4fec-9035-df302a8cf7df",
+                                            "applicationService": {
+                                                "id": "93721ad2-a97e-4824-8bdb-83cf1c3b1273",
+                                                "name": "AP.IAM.AppServices.APIManagement.delete",
+                                                "url": "/v1/api/application-service"
+                                            }
+                                        },
+                                        {
+                                            "id": "c97e7932-1196-47f0-ae72-6cc8a9a86b6d",
+                                            "applicationService": {
+                                                "id": "46fdb340-0ece-4aa1-bf6b-717189a4a8d3",
+                                                "name": "AP.IAM.AppServices.APIManagement.update",
+                                                "url": "/v1/api/application-service"
+                                            }
+                                        },
+                                        {
+                                            "id": "f83cfe65-1832-40ec-8580-4d14b1e7e74e",
+                                            "applicationService": {
+                                                "id": "a75cf19e-d707-4bbd-bc61-5a0d3051b95a",
+                                                "name": "AP.IAM.AppServices.APIManagement.create",
+                                                "url": "/v1/api/application-service"
+                                            }
+                                        },
+                                        {
+                                            "id": "bd372308-3dbc-42fd-99b2-7d815fa750d4",
+                                            "applicationService": {
+                                                "id": "23e93e71-d0bc-4de8-8ef4-a3b2ada59cd3",
+                                                "name": "AP.IAM.AppServices.APIManagement.get",
+                                                "url": "/v1/api/application-service"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "7b23ae36-c6ec-427e-a050-2a05c4af613a",
+                            "level2Menu": {
+                                "id": "c97a79d3-45b7-44a3-a209-0c9cebbc3bb7",
+                                "l2MenuName": "Roles",
+                                "l2MenuGroupId": "6.2",
+                                "l2PageLink": "/exco/iam/roles",
+                                "l2MenuIcon": "/l2images/7d2b9055-ec15-4dba-9fe0-c485ea735c7b.png",
+                                "userRoleL2ServicePermission": [
+                                    
+                                ]
+                            },
+                            "userRoleL3MenuPermission": [
+                                {
+                                    "id": "a2ac92dc-9684-4765-a5c9-69071a4ba2c5",
+                                    "level3Menu": {
+                                        "id": "bd401f01-c8f3-4c50-a073-9fc347de760b",
+                                        "l3MenuName": "User Groups",
+                                        "l3MenuGroupId": "6.2.1",
+                                        "l3PageLink": "/exco/iam/user-groups",
+                                        "l3MenuIcon": "/l3images/201ff190-d93f-4805-b63a-d5f1838d5ab0.png"
+                                    },
+                                    "userRoleL3ServicePermission": [
+                                        {
+                                            "id": "7480a7ff-a28c-4c98-b6a6-8996331091e6",
+                                            "applicationService": {
+                                                "id": "098d169b-94fb-4eeb-a268-698e1792273a",
+                                                "name": "AP.IAM.Roles.UserGroups.update",
+                                                "url": "/v1/api/user-group"
+                                            }
+                                        },
+                                        {
+                                            "id": "635e0f7f-3bbe-4050-a480-2095ec86ac56",
+                                            "applicationService": {
+                                                "id": "9e54788e-7c04-4225-aa7c-3262610c8257",
+                                                "name": "AP.IAM.Roles.UserGroups.get",
+                                                "url": "/v1/api/user-group"
+                                            }
+                                        },
+                                        {
+                                            "id": "ed87a329-5fbc-4a21-a60d-101e31d5b410",
+                                            "applicationService": {
+                                                "id": "3d7bbf1a-d7f4-47ef-b56b-0a4b2940fef0",
+                                                "name": "AP.IAM.Roles.UserGroups.create",
+                                                "url": "/v1/api/user-group"
+                                            }
+                                        },
+                                        {
+                                            "id": "361e73d8-17ae-408d-9e01-9f265c3fbaa4",
+                                            "applicationService": {
+                                                "id": "24613ce8-caac-4587-aae9-741d28a464c6",
+                                                "name": "AP.IAM.Roles.UserGroups.delete",
+                                                "url": "/v1/api/user-group"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "a29ea9f8-00c5-4c3c-b28d-c312927dce3a",
+                                    "level3Menu": {
+                                        "id": "7381f7b5-5a5b-4421-bf5c-d7304c8bfe81",
+                                        "l3MenuName": "Role Management",
+                                        "l3MenuGroupId": "6.2.2",
+                                        "l3PageLink": "/exco/iam/role-management",
+                                        "l3MenuIcon": "/l3images/e04dbc6f-79aa-4823-ac95-fb4d8388fbff.png"
+                                    },
+                                    "userRoleL3ServicePermission": [
+                                        {
+                                            "id": "1500c1f9-952a-4489-aa11-44f6f9b7846a",
+                                            "applicationService": {
+                                                "id": "8da8a034-0cfa-441d-815e-a7b51764ac66",
+                                                "name": "AP.IAM.Roles.RoleManagement.update",
+                                                "url": "/v1/api/user-role"
+                                            }
+                                        },
+                                        {
+                                            "id": "5449d2c6-5729-454b-be31-f53f9051823a",
+                                            "applicationService": {
+                                                "id": "d3730597-8dd0-4489-89a1-f2f714a5d8c6",
+                                                "name": "AP.IAM.Roles.RoleManagement.get",
+                                                "url": "/v1/api/user-role"
+                                            }
+                                        },
+                                        {
+                                            "id": "99ccdabd-2520-4c1a-9a97-6d9274f88bdd",
+                                            "applicationService": {
+                                                "id": "68688f84-9142-4d06-b80d-666f6f34d54e",
+                                                "name": "AP.IAM.Roles.RoleManagement.create",
+                                                "url": "/v1/api/user-role"
+                                            }
+                                        },
+                                        {
+                                            "id": "cf633213-50ac-4c57-8394-6ff688fb288d",
+                                            "applicationService": {
+                                                "id": "79751121-e63b-4178-88de-9b0f95aa4beb",
+                                                "name": "AP.IAM.Roles.RoleManagement.delete",
+                                                "url": "/v1/api/user-role"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "ec928815-06ca-4c66-9186-186f6322bc9c",
+                                    "level3Menu": {
+                                        "id": "21122d36-afb4-459a-ae12-d4438c3c2cea",
+                                        "l3MenuName": "Access Permissions",
+                                        "l3MenuGroupId": "6.2.3",
+                                        "l3PageLink": "/exco/iam/access-permissions",
+                                        "l3MenuIcon": "/l3images/6b7d2e84-6c9f-4658-82c1-b26ceacf89af.png"
+                                    },
+                                    "userRoleL3ServicePermission": [
+                                        {
+                                            "id": "4a051e57-9fcf-4c6f-a38c-a6b12d9a9cc5",
+                                            "applicationService": {
+                                                "id": "9b50e5a9-e657-4c57-9814-b73523943d93",
+                                                "name": "AP.IAM.Roles.AccessPermissions.l1MenuServicePermissionUpdate",
+                                                "url": "/v1/api/user-role-l1service-permission"
+                                            }
+                                        },
+                                        {
+                                            "id": "cdaddfa5-7ae4-468b-b877-f4ac1f5a6565",
+                                            "applicationService": {
+                                                "id": "d3ef2fd2-46c4-4329-b2dd-b6b4d210022b",
+                                                "name": "AP.IAM.Roles.AccessPermissions.l3MenuServicePermissionGetAllServiceByUserRoleId",
+                                                "url": "/v1/api/user-role-l3service-permission"
+                                            }
+                                        },
+                                        {
+                                            "id": "da44da4b-0838-417b-8dbb-77cef4890144",
+                                            "applicationService": {
+                                                "id": "8bd10485-fa1f-47e3-9c74-722d310ae97a",
+                                                "name": "AP.IAM.Roles.AccessPermissions.l3MenuServicePermissionDelete",
+                                                "url": "/v1/api/user-role-l3service-permission"
+                                            }
+                                        },
+                                        {
+                                            "id": "c906c85a-c942-42a8-84ef-a7880700869f",
+                                            "applicationService": {
+                                                "id": "f7d5d21b-dcbf-42b0-b95d-40ce26d6bfa1",
+                                                "name": "AP.IAM.Roles.AccessPermissions.l3MenuServicePermissionUpdate",
+                                                "url": "/v1/api/user-role-l3service-permission"
+                                            }
+                                        },
+                                        {
+                                            "id": "92aa7556-7a9f-488e-8215-0858dfef3994",
+                                            "applicationService": {
+                                                "id": "c06ebc89-c570-4fdd-b329-9d4c7ba5025b",
+                                                "name": "AP.IAM.Roles.AccessPermissions.l3MenuServicePermissionGet",
+                                                "url": "/v1/api/user-role-l3service-permission"
+                                            }
+                                        },
+                                        {
+                                            "id": "f29b8182-1b63-40c0-a44e-ef9d175eb7d6",
+                                            "applicationService": {
+                                                "id": "0f510e1d-787d-47c0-ad6a-729c002aa6b6",
+                                                "name": "AP.IAM.Roles.AccessPermissions.l3MenuPermissionGetAllMenuByUserRoleId",
+                                                "url": "/v1/api/user-role-l3menu-permission"
+                                            }
+                                        },
+                                        {
+                                            "id": "306ea3d9-784e-47df-84ab-f7749d26681d",
+                                            "applicationService": {
+                                                "id": "3560e76d-6d51-4fd1-a2b5-f97f5913a45d",
+                                                "name": "AP.IAM.Roles.AccessPermissions.l3MenuPermissionDelete",
+                                                "url": "/v1/api/user-role-l3menu-permission"
+                                            }
+                                        },
+                                        {
+                                            "id": "845d7348-562b-4f91-8b28-7e8142ee410a",
+                                            "applicationService": {
+                                                "id": "5740c6b6-961b-4b94-965b-381f67f25551",
+                                                "name": "AP.IAM.Roles.AccessPermissions.l3MenuPermissionUpdate",
+                                                "url": "/v1/api/user-role-l3menu-permission"
+                                            }
+                                        },
+                                        {
+                                            "id": "dc310256-a6f8-4a00-a591-e4c29f32d58f",
+                                            "applicationService": {
+                                                "id": "4bbf92e7-b828-4b47-b192-5820636e2ef9",
+                                                "name": "AP.IAM.Roles.AccessPermissions.l3MenuPermissionCreate",
+                                                "url": "/v1/api/user-role-l3menu-permission"
+                                            }
+                                        },
+                                        {
+                                            "id": "5858f5c7-f286-4c4b-8d29-a1905ec8fdf9",
+                                            "applicationService": {
+                                                "id": "eda6aeac-c15f-46dd-a3ec-8a88785e6e9f",
+                                                "name": "AP.IAM.Roles.AccessPermissions.l3MenuPermissionGet",
+                                                "url": "/v1/api/user-role-l3menu-permission"
+                                            }
+                                        },
+                                        {
+                                            "id": "965312c0-0893-49b4-a45f-0bfffce12f37",
+                                            "applicationService": {
+                                                "id": "d20c40b5-8f53-4eba-bf02-5395e66b7666",
+                                                "name": "AP.IAM.Roles.AccessPermissions.l2MenuServicePermissionGetAllServiceByUserRoleId",
+                                                "url": "/v1/api/user-role-l2service-permission"
+                                            }
+                                        },
+                                        {
+                                            "id": "c0eaa63c-128a-4dd4-8dab-b27f6e206541",
+                                            "applicationService": {
+                                                "id": "b83317e7-d019-49f2-bc55-b1c66b027bd1",
+                                                "name": "AP.IAM.Roles.AccessPermissions.l2MenuServicePermissionDelete",
+                                                "url": "/v1/api/user-role-l2service-permission"
+                                            }
+                                        },
+                                        {
+                                            "id": "26da8437-e2e7-47b5-8017-b9a35ade6471",
+                                            "applicationService": {
+                                                "id": "6af2cf8b-9647-402c-a0ac-1c4d9d1f767a",
+                                                "name": "AP.IAM.Roles.AccessPermissions.l2MenuServicePermissionUpdate",
+                                                "url": "/v1/api/user-role-l2service-permission"
+                                            }
+                                        },
+                                        {
+                                            "id": "c6a0714f-bc7f-4ecd-9f67-bbf9d3577840",
+                                            "applicationService": {
+                                                "id": "f2378f53-9a1c-4237-8349-07225a9b2297",
+                                                "name": "AP.IAM.Roles.AccessPermissions.l2MenuServicePermissionCreate",
+                                                "url": "/v1/api/user-role-l2service-permission"
+                                            }
+                                        },
+                                        {
+                                            "id": "39a8c9d8-6c07-4233-b0c5-f1fd1e337428",
+                                            "applicationService": {
+                                                "id": "1f6d4f31-56df-4380-93b5-1781add0fdb5",
+                                                "name": "AP.IAM.Roles.AccessPermissions.l2MenuServicePermissionGet",
+                                                "url": "/v1/api/user-role-l2service-permission"
+                                            }
+                                        },
+                                        {
+                                            "id": "629fe9c1-ddc5-4a1f-971b-1567df800a14",
+                                            "applicationService": {
+                                                "id": "304497c0-e103-4fca-9bf4-eba13c822745",
+                                                "name": "AP.IAM.Roles.AccessPermissions.l2MenuPermissionGetAllMenuByUserRoleId",
+                                                "url": "/v1/api/user-role-l2menu-permission"
+                                            }
+                                        },
+                                        {
+                                            "id": "3b4f4929-31d0-46a0-a0c0-6f5a151fe0ec",
+                                            "applicationService": {
+                                                "id": "b1ec12ca-fbac-48e4-a003-461cd75e3699",
+                                                "name": "AP.IAM.Roles.AccessPermissions.l2MenuPermissionDelete",
+                                                "url": "/v1/api/user-role-l2menu-permission"
+                                            }
+                                        },
+                                        {
+                                            "id": "2e476706-069a-40c9-b7e7-58858b87d7a0",
+                                            "applicationService": {
+                                                "id": "c85a44ac-0e6e-4c9d-8e92-f6b24db51b4c",
+                                                "name": "AP.IAM.Roles.AccessPermissions.l2MenuPermissionUpdate",
+                                                "url": "/v1/api/user-role-l2menu-permission"
+                                            }
+                                        },
+                                        {
+                                            "id": "86ec91a0-d6d1-496d-b1b6-11c3b31351bf",
+                                            "applicationService": {
+                                                "id": "1306a63d-4adb-416d-9662-0ed98b95bf35",
+                                                "name": "AP.IAM.Roles.AccessPermissions.l2MenuPermissionCreate",
+                                                "url": "/v1/api/user-role-l2menu-permission"
+                                            }
+                                        },
+                                        {
+                                            "id": "a298a128-91ee-40ab-bab1-19be32199af0",
+                                            "applicationService": {
+                                                "id": "993accb5-37cf-444a-9951-ea6ea4b81e4e",
+                                                "name": "AP.IAM.Roles.AccessPermissions.l2MenuPermissionGet",
+                                                "url": "/v1/api/user-role-l2menu-permission"
+                                            }
+                                        },
+                                        {
+                                            "id": "75c845fd-4cbe-4a65-8449-62fbee1b39e4",
+                                            "applicationService": {
+                                                "id": "d18f313c-f648-47ef-a09b-783d751b4741",
+                                                "name": "AP.IAM.Roles.AccessPermissions.l1MenuServicePermissionGetAllServiceByUserRoleId",
+                                                "url": "/v1/api/user-role-l1service-permission"
+                                            }
+                                        },
+                                        {
+                                            "id": "8391d71c-ce32-427e-a9b1-cdb9f5153552",
+                                            "applicationService": {
+                                                "id": "c8953baf-cfab-4872-8ba9-4fcc549538b7",
+                                                "name": "AP.IAM.Roles.AccessPermissions.l1MenuServicePermissionDelete",
+                                                "url": "/v1/api/user-role-l1service-permission"
+                                            }
+                                        },
+                                        {
+                                            "id": "6be412bf-957e-4137-8092-bfb4a2091b7b",
+                                            "applicationService": {
+                                                "id": "58ad047e-f046-4683-b8a5-4d430cdb33e3",
+                                                "name": "AP.IAM.Roles.AccessPermissions.l1MenuPermissionGetAllMenuByUserRoleId",
+                                                "url": "/v1/api/user-role-l1menu-permission"
+                                            }
+                                        },
+                                        {
+                                            "id": "1d4e7f3c-8ee0-4435-a960-a9cd21e1d5d5",
+                                            "applicationService": {
+                                                "id": "ebafa5a9-86c5-44e6-a754-8c320790cde0",
+                                                "name": "AP.IAM.Roles.AccessPermissions.l1MenuPermissionDelete",
+                                                "url": "/v1/api/user-role-l1menu-permission"
+                                            }
+                                        },
+                                        {
+                                            "id": "900f8a0b-9d1b-4a33-b866-8f67f358ddc5",
+                                            "applicationService": {
+                                                "id": "2c958121-9415-4b87-8ddc-13d4b6588ef8",
+                                                "name": "AP.IAM.Roles.AccessPermissions.l1MenuPermissionUpdate",
+                                                "url": "/v1/api/user-role-l1menu-permission"
+                                            }
+                                        },
+                                        {
+                                            "id": "1762d28f-cd7e-4145-9420-d1fcc566a079",
+                                            "applicationService": {
+                                                "id": "bd371f6f-7a64-4e66-bbc4-1633053a561d",
+                                                "name": "AP.IAM.Roles.AccessPermissions.l1MenuPermissionCreate",
+                                                "url": "/v1/api/user-role-l1menu-permission"
+                                            }
+                                        },
+                                        {
+                                            "id": "c85a0139-fbf3-4fa1-8c9f-adb7fec0468d",
+                                            "applicationService": {
+                                                "id": "507cbb31-4dd0-4815-89b3-f8574cf17a22",
+                                                "name": "AP.IAM.Roles.AccessPermissions.l1MenuPermissionGet",
+                                                "url": "/v1/api/user-role-l1menu-permission"
+                                            }
+                                        },
+                                        {
+                                            "id": "d4f04d49-650e-4f70-96c1-30638c3db5d3",
+                                            "applicationService": {
+                                                "id": "62f54580-0863-40ee-a3cb-f9ff95633159",
+                                                "name": "AP.IAM.Roles.AccessPermissions.l1MenuServicePermissionCreate",
+                                                "url": "/v1/api/user-role-l1service-permission"
+                                            }
+                                        },
+                                        {
+                                            "id": "34720d1c-f723-42ee-be37-0327386385d6",
+                                            "applicationService": {
+                                                "id": "1ffee8cc-08da-4791-a276-533ca7fdaf5c",
+                                                "name": "AP.IAM.Roles.AccessPermissions.l3MenuServicePermissionCreate",
+                                                "url": "/v1/api/user-role-l3service-permission"
+                                            }
+                                        },
+                                        {
+                                            "id": "46add7c4-49b9-471f-9f65-8959fdcc0efa",
+                                            "applicationService": {
+                                                "id": "a38cdc4c-19f6-4f84-931e-6fde43ca1e82",
+                                                "name": "AP.IAM.Roles.AccessPermissions.l1MenuServicePermissionGet",
+                                                "url": "/v1/api/user-role-l1service-permission"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "eaeffe47-bb32-4cf6-87ad-b3e347fb5841",
+                            "level2Menu": {
+                                "id": "d0eabc4f-6ceb-4e19-af23-1c62e91738d4",
+                                "l2MenuName": "Users",
+                                "l2MenuGroupId": "6.3",
+                                "l2PageLink": "/exco/iam/users",
+                                "l2MenuIcon": "/l2images/1771c9a6-310e-46f1-b178-224f853bd978.png",
+                                "userRoleL2ServicePermission": [
+                                    {
+                                        "id": "f867e1db-d158-4e52-b6fe-b3c8aca30b3b",
+                                        "applicationService": {
+                                            "id": "da13bc85-62a2-40bf-adc9-358f7d796daa",
+                                            "name": "AP.IAM.Users.delete",
+                                            "url": "/v1/api/assessment-user"
+                                        }
+                                    },
+                                    {
+                                        "id": "d55878b7-4c0a-4c23-b235-1aaef11461c0",
+                                        "applicationService": {
+                                            "id": "3edda477-d06d-4564-8b35-a514a686660f",
+                                            "name": "AP.IAM.Users.update",
+                                            "url": "/v1/api/assessment-user"
+                                        }
+                                    },
+                                    {
+                                        "id": "56328b3b-f9a4-4329-9fda-b3e04088984a",
+                                        "applicationService": {
+                                            "id": "0319ab24-7650-4aab-bc92-b680e1e8f8b7",
+                                            "name": "AP.IAM.Users.create",
+                                            "url": "/v1/api/assessment-user"
+                                        }
+                                    },
+                                    {
+                                        "id": "f381bbee-7236-44b8-91ea-4699469a3f91",
+                                        "applicationService": {
+                                            "id": "be112ecb-24b5-45df-8609-2a147ddc7c40",
+                                            "name": "AP.IAM.Users.get",
+                                            "url": "/v1/api/assessment-user"
+                                        }
+                                    }
+                                ]
+                            },
+                            "userRoleL3MenuPermission": [
+                                
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "2456af4b-1475-46a0-b2fd-3db2f07c0c19",
+                    "roleCode": "AD",
+                    "level1Menu": {
+                        "id": "0b83a5b8-4d01-4152-b558-9c5172c0294d",
+                        "l1MenuName": "Platform",
+                        "l1MenuGroupId": "7",
+                        "l1PageLink": "/exco/platform",
+                        "l1MenuIcon": "/l1images/02e02236-ccb0-44a8-adc3-c1c36e474058.png",
+                        "userRoleL1ServicePermission": [
+                            
+                        ]
+                    },
+                    "userRoleL2MenuPermission": [
+                        {
+                            "id": "a060931c-9c1a-4c34-89f6-3e179180ad56",
+                            "level2Menu": {
+                                "id": "1f1dd650-ff83-436a-9aec-67e5d91cca40",
+                                "l2MenuName": "Config",
+                                "l2MenuGroupId": "7.1",
+                                "l2PageLink": "/exco/platform/config",
+                                "l2MenuIcon": "/l2images/17e1fb8e-18c5-47e8-b946-46f0b3c7cac5.png",
+                                "userRoleL2ServicePermission": [
+                                    
+                                ]
+                            },
+                            "userRoleL3MenuPermission": [
+                                {
+                                    "id": "10e1f251-7733-4596-b6aa-0c35b6e966ce",
+                                    "level3Menu": {
+                                        "id": "23d4a5bf-a4ff-47ae-a356-42cb208b44a5",
+                                        "l3MenuName": "Question Type",
+                                        "l3MenuGroupId": "7.1.1",
+                                        "l3PageLink": "/exco/config/question-type",
+                                        "l3MenuIcon": "/l3images/4b4d3451-e7a8-43b9-bab0-07443540b34b.png"
+                                    },
+                                    "userRoleL3ServicePermission": [
+                                        {
+                                            "id": "97ce4fe7-d2a2-4907-861c-8630c9c898b8",
+                                            "applicationService": {
+                                                "id": "88b67dff-caa9-4d2a-8559-34cd8d072c32",
+                                                "name": "AP.Platform.Config.QuestionType.delete",
+                                                "url": "/v1/api/question-type"
+                                            }
+                                        },
+                                        {
+                                            "id": "6ea11f7e-828a-42a3-bf39-3896b948dae2",
+                                            "applicationService": {
+                                                "id": "a7d276f3-410e-4d33-99d5-c7f93e8d1354",
+                                                "name": "AP.Platform.Config.QuestionType.update",
+                                                "url": "/v1/api/question-type"
+                                            }
+                                        },
+                                        {
+                                            "id": "16fb7628-9974-4cb0-835d-8f3d175bc6b4",
+                                            "applicationService": {
+                                                "id": "60b52e39-8e8d-4f18-a80b-2a9c11386cfd",
+                                                "name": "AP.Platform.Config.QuestionType.create",
+                                                "url": "/v1/api/question-type"
+                                            }
+                                        },
+                                        {
+                                            "id": "d6227d8d-8b54-46e0-b469-a77bcc2095b8",
+                                            "applicationService": {
+                                                "id": "9a0c1e57-9b87-4c91-aa2d-8655c1322017",
+                                                "name": "AP.Platform.Config.QuestionType.get",
+                                                "url": "/v1/api/question-type"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "31c951c2-e446-4cc6-8fe2-634317da35b7",
+                                    "level3Menu": {
+                                        "id": "7889724f-92eb-4ffc-82f2-18328979e8ce",
+                                        "l3MenuName": "Question Rating Value",
+                                        "l3MenuGroupId": "7.1.2",
+                                        "l3PageLink": "/exco/config/question-rating-value",
+                                        "l3MenuIcon": "/l3images/9a8c8e28-54b1-422e-b5fc-a3931fe9e44f.png"
+                                    },
+                                    "userRoleL3ServicePermission": [
+                                        {
+                                            "id": "5ac9ac40-efad-4363-8465-5dcbb3175b06",
+                                            "applicationService": {
+                                                "id": "9eaab8de-0407-477b-bbdc-db6e67eed3c2",
+                                                "name": "AP.Platform.Config.QuestionRatingValue.get",
+                                                "url": "/v1/api/question-rating-value"
+                                            }
+                                        },
+                                        {
+                                            "id": "92edc949-d33e-4709-b1c2-887285991b63",
+                                            "applicationService": {
+                                                "id": "48da77c0-89dd-46ce-8293-bea854cf86a9",
+                                                "name": "AP.Platform.Config.QuestionRatingValue.create",
+                                                "url": "/v1/api/question-rating-value"
+                                            }
+                                        },
+                                        {
+                                            "id": "3999ae1d-870d-4fc9-8a31-5f2153721027",
+                                            "applicationService": {
+                                                "id": "03e3b74d-197c-4fa4-b2cc-033ccf824ff8",
+                                                "name": "AP.Platform.Config.QuestionRatingValue.update",
+                                                "url": "/v1/api/question-rating-value"
+                                            }
+                                        },
+                                        {
+                                            "id": "0da94d82-befa-4e28-b690-8587462583eb",
+                                            "applicationService": {
+                                                "id": "5febe314-34bd-4dd0-b32c-c8ff23b5ff03",
+                                                "name": "AP.Platform.Config.QuestionRatingValue.delete",
+                                                "url": "/v1/api/question-rating-value"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "0911c0bf-3ae9-46ea-9409-403d908a922d",
+                                    "level3Menu": {
+                                        "id": "ae7fbc74-a151-4b9e-a0ce-6515e0665251",
+                                        "l3MenuName": "Assessment Progress",
+                                        "l3MenuGroupId": "7.1.3",
+                                        "l3PageLink": "/exco/config/assessment-progress",
+                                        "l3MenuIcon": "/l3images/a274598c-1289-481e-bccb-03fc0d0e6049.png"
+                                    },
+                                    "userRoleL3ServicePermission": [
+                                        {
+                                            "id": "4d91d1f6-5d11-43c1-a9f3-dd52afb7f9d8",
+                                            "applicationService": {
+                                                "id": "03072716-e2c9-421c-ab12-7bfe11aee58f",
+                                                "name": "AP.Platform.Config.AssessmentProgress.getByTempId",
+                                                "url": "/v1/api/assessment-progress/get-by-template-id"
+                                            }
+                                        },
+                                        {
+                                            "id": "7386c24a-2d40-4ae0-aea6-567ecc1cd65d",
+                                            "applicationService": {
+                                                "id": "a13f4909-30e4-44ac-84d3-f7288bc580ae",
+                                                "name": "AP.Platform.Config.AssessmentProgress.create",
+                                                "url": "/v1/api/assessment-progress"
+                                            }
+                                        },
+                                        {
+                                            "id": "b22a085b-a9d5-4397-bddc-693293b80c51",
+                                            "applicationService": {
+                                                "id": "363912a4-2ee3-4b87-a9d3-5a9d65854fe4",
+                                                "name": "AP.Platform.Config.AssessmentProgress.update",
+                                                "url": "/v1/api/assessment-progress"
+                                            }
+                                        },
+                                        {
+                                            "id": "8f0c068a-82a8-44ac-b1c9-92e41a747633",
+                                            "applicationService": {
+                                                "id": "836f96f3-59c1-40ad-8a8d-8623084a9fcf",
+                                                "name": "AP.Platform.Config.AssessmentProgress.delete",
+                                                "url": "/v1/api/assessment-progress"
+                                            }
+                                        },
+                                        {
+                                            "id": "2704226a-d0f1-4c76-b057-52f9962e96e6",
+                                            "applicationService": {
+                                                "id": "2bccf22b-e7b6-4ddb-8030-8747510423d5",
+                                                "name": "AP.Platform.Config.AssessmentProgress.get",
+                                                "url": "/v1/api/assessment-progress"
+                                            }
+                                        },
+                                        {
+                                            "id": "86cc42f2-5cc4-4472-8328-f8daad71c036",
+                                            "applicationService": {
+                                                "id": "df32b483-661f-4556-a182-5a7458edb391",
+                                                "name": "AP.Platform.Config.AssessmentProgress.getByTrackId",
+                                                "url": "/v1/api/assessment-progress/get-by-tracking-id"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "b6d23081-6d21-468b-a530-65aea7535489",
+                                    "level3Menu": {
+                                        "id": "2f00646a-e49e-435d-8251-fb7552fd64f0",
+                                        "l3MenuName": "Assessment Status",
+                                        "l3MenuGroupId": "7.1.4",
+                                        "l3PageLink": "/exco/config/assessment-status",
+                                        "l3MenuIcon": "/l3images/24997528-edba-403c-bad2-f9cfddc2da66.png"
+                                    },
+                                    "userRoleL3ServicePermission": [
+                                        {
+                                            "id": "63d0975d-cfc1-4868-9c48-02a5f7684f07",
+                                            "applicationService": {
+                                                "id": "61defaef-b2f6-462c-a5a2-be70f02b72e8",
+                                                "name": "AP.Platform.Config.AssessmentStatus.get",
+                                                "url": "/v1/api/assessment-status"
+                                            }
+                                        },
+                                        {
+                                            "id": "2ea4f71d-f4b6-466c-87e1-91bfaa071de2",
+                                            "applicationService": {
+                                                "id": "1361820b-ad24-4466-a08b-032f1b249220",
+                                                "name": "AP.Platform.Config.AssessmentStatus.create",
+                                                "url": "/v1/api/assessment-status"
+                                            }
+                                        },
+                                        {
+                                            "id": "a463ff0e-3cdc-4c23-afc2-be0039bdf662",
+                                            "applicationService": {
+                                                "id": "2c5dfb4e-702d-4182-adf7-b0b90886a5ab",
+                                                "name": "AP.Platform.Config.AssessmentStatus.update",
+                                                "url": "/v1/api/assessment-status"
+                                            }
+                                        },
+                                        {
+                                            "id": "06d64778-5090-4489-bed7-710258a34ae7",
+                                            "applicationService": {
+                                                "id": "13dd1934-f0a9-4699-99ed-81d8b7eb532d",
+                                                "name": "AP.Platform.Config.AssessmentStatus.delete",
+                                                "url": "/v1/api/assessment-status"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "c17943bd-1a8e-4d7d-a63a-ba76697c23ea",
+                                    "level3Menu": {
+                                        "id": "44ea8155-afbd-44c7-872e-c9b087f7bd40",
+                                        "l3MenuName": "Response Status",
+                                        "l3MenuGroupId": "7.1.5",
+                                        "l3PageLink": "/exco/config/response-status",
+                                        "l3MenuIcon": "/l3images/f40a7ed7-00c2-466c-9e6e-bbef9d1bbae6.png"
+                                    },
+                                    "userRoleL3ServicePermission": [
+                                        {
+                                            "id": "03a65a09-713e-4f0b-99f4-37d26df829f1",
+                                            "applicationService": {
+                                                "id": "d4ffd48c-8914-48d4-bfa0-aa787a2dc5ca",
+                                                "name": "AP.Platform.Config.ResponseStatus.delete",
+                                                "url": "/v1/api/response-status"
+                                            }
+                                        },
+                                        {
+                                            "id": "20ac45fc-6bd5-40f5-83b7-ad384dcc84f6",
+                                            "applicationService": {
+                                                "id": "d5092145-2eab-4abc-a1f3-b6688eb6b9f3",
+                                                "name": "AP.Platform.Config.ResponseStatus.get",
+                                                "url": "/v1/api/response-status"
+                                            }
+                                        },
+                                        {
+                                            "id": "55824240-e630-4db8-8369-978a68da2a91",
+                                            "applicationService": {
+                                                "id": "795794bf-5fd7-437b-bd02-43384f4513ce",
+                                                "name": "AP.Platform.Config.ResponseStatus.create",
+                                                "url": "/v1/api/response-status"
+                                            }
+                                        },
+                                        {
+                                            "id": "7b2a47d1-78b9-44a4-b9e3-9e78b165e937",
+                                            "applicationService": {
+                                                "id": "34a4526d-4cf9-4296-8973-4bd12d7ed914",
+                                                "name": "AP.Platform.Config.ResponseStatus.update",
+                                                "url": "/v1/api/response-status"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "729703e9-b156-44cc-b7cd-a8f2502bc4d2",
+                                    "level3Menu": {
+                                        "id": "17fb2c41-67b1-48ef-a204-c39b404bdd32",
+                                        "l3MenuName": "Relationship Type",
+                                        "l3MenuGroupId": "7.1.6",
+                                        "l3PageLink": "/exco/config/relationship-type",
+                                        "l3MenuIcon": "/l3images/1008d177-8321-43ca-b6f8-d112e99a41cd.png"
+                                    },
+                                    "userRoleL3ServicePermission": [
+                                        {
+                                            "id": "4a92e604-9d07-4d9e-b0ba-ac50107192b9",
+                                            "applicationService": {
+                                                "id": "cb24185b-b999-4fce-9830-7139e4c26340",
+                                                "name": "AP.Platform.Config.RelationshipType.delete",
+                                                "url": "/v1/api/relationship-type"
+                                            }
+                                        },
+                                        {
+                                            "id": "17d0488d-b4f2-45f9-bcfd-318f0b67d50c",
+                                            "applicationService": {
+                                                "id": "606c75b3-4e62-4999-81e6-c3e9d5b19ff8",
+                                                "name": "AP.Platform.Config.RelationshipType.update",
+                                                "url": "/v1/api/relationship-type"
+                                            }
+                                        },
+                                        {
+                                            "id": "318dae24-4eeb-48b8-98b6-32b613bcc909",
+                                            "applicationService": {
+                                                "id": "0f0faf4b-2216-41b6-9b3a-9e106a4073f4",
+                                                "name": "AP.Platform.Config.RelationshipType.create",
+                                                "url": "/v1/api/relationship-type"
+                                            }
+                                        },
+                                        {
+                                            "id": "d4a3316d-2210-4fce-80e0-3bb71d2319b2",
+                                            "applicationService": {
+                                                "id": "461b2931-b9ed-4850-9d6a-f60af35ee52c",
+                                                "name": "AP.Platform.Config.RelationshipType.get",
+                                                "url": "/v1/api/relationship-type"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "a40c4c6c-2d45-4463-9f12-2f42b5762977",
+                                    "level3Menu": {
+                                        "id": "863d63df-209e-4ed3-9e13-e55c910e87bc",
+                                        "l3MenuName": "Individual Response Status",
+                                        "l3MenuGroupId": "7.1.7",
+                                        "l3PageLink": "/exco/config/individual-response-status",
+                                        "l3MenuIcon": "/l3images/dee3f1c8-8722-4417-8dad-9a613edd093b.png"
+                                    },
+                                    "userRoleL3ServicePermission": [
+                                        {
+                                            "id": "ebc6bb5e-d853-44c8-9635-ff2bcfd347e2",
+                                            "applicationService": {
+                                                "id": "9101fe97-413f-44b3-a1ad-fa9252b96fc9",
+                                                "name": "AP.Platform.Config.IndividualResponseStatus.get",
+                                                "url": "/v1/api/individual-response-status"
+                                            }
+                                        },
+                                        {
+                                            "id": "6a98022a-a5c4-475b-8cc4-bbf636325438",
+                                            "applicationService": {
+                                                "id": "f768e3db-d552-4c72-878a-9bd8bd49679c",
+                                                "name": "AP.Platform.Config.IndividualResponseStatus.delete",
+                                                "url": "/v1/api/individual-response-status"
+                                            }
+                                        },
+                                        {
+                                            "id": "6dd72d60-9e1e-4822-91e1-bb0239532fa5",
+                                            "applicationService": {
+                                                "id": "e4173e43-327c-4f40-8e4a-52480d93e66b",
+                                                "name": "AP.Platform.Config.IndividualResponseStatus.update",
+                                                "url": "/v1/api/individual-response-status"
+                                            }
+                                        },
+                                        {
+                                            "id": "ed477321-6b24-4ead-a980-8f729aa87013",
+                                            "applicationService": {
+                                                "id": "a3ea5fdf-41c0-4954-a772-5068bae2d278",
+                                                "name": "AP.Platform.Config.IndividualResponseStatus.create",
+                                                "url": "/v1/api/individual-response-status"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "_csrf": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfY3NyZiI6Ijk2MzIxNzM2LWYyNjctNDNkYS04NDcxLTY0N2E0YzM2NGM3MyIsImlhdCI6MTY3NDA4MjgwMSwiZXhwIjoxNjc0MTY5MjAxfQ.leEAJtcvQYgM3x6l_ZGJEQGFggQAdVlSY_qXZNW4iEM"
+    },
+    "statusCode": 200
+}
+{
+    "statusCode": 401,
+    "message": "Unauthorized Access"
+}

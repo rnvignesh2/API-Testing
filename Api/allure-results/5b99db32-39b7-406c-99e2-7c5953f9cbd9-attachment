@@ -1,0 +1,18 @@
+Request method:	POST
+Request URI:	https://test.ouraipro.com/assessment/v1/api/assessment-user/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbHZjIjoiZGExZDcyMzItMmJkNy00ZjE0LTk0MmItOTc1YmMxZjQyY2ZmIiwiaWF0IjoxNjc0MDQxNDA3LCJleHAiOjE2NzQwNDIwMDd9.iWLqITkF3l4TY9WyFx9u9KoNhuOOINSobhjFOrQ2tAA
+				Accept=*/*
+				Accept-Encoding=gzip, deflate, br
+				Connection=keep-alive
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "password": "Pass@123"
+}

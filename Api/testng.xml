@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<test thread-count="5" name="PostTest" enabled ="false">
+    <classes>
+      <class name="com.AssessmentDimension.PostRequest">
+      <methods>
+        <include name="testForPOST4"/>  
+         <include name="testForPOST3"/>  
+          <include name="testForPOST2"/>  
+           <include name="testForPOST1"/>  
+        </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="PutTest" enabled ="false">
+    <classes>
+      <class name="com.AssessmentDimension.PutRequest">
+      <methods>
+      <include name="testForPUT5"/> 
+           <include name="testForPUT4"/> 
+          <include name="testForPUT3"/> 
+           <include name="testForPUT2"/> 
+            <include name="testForPUT1"/> 
+        </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+    <test thread-count="5" name="GetTest" enabled ="true">
+    <classes>
+      <class name="com.AssessmentDimension.GetRequest">
+      <methods>
+        <include name="testForGET"/>  
+        </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="DeleteAllTest" enabled ="false">
+    <classes>
+      <class name="com.AssessmentDimension.DeleteRequest">
+      <methods>
+        <include name="testForDELETEAll"/>  
+        </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+
+    
+</suite> <!-- Suite -->
+
+

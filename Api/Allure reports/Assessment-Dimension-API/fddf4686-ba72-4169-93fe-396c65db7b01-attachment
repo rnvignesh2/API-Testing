@@ -1,0 +1,72 @@
+{
+    "statusCode": 400,
+    "message": [
+        "assessmentSectionId must be a UUID",
+        "assessmentSectionId should not be empty"
+    ],
+    "error": "Bad Request"
+}
+{
+    "statusCode": 400,
+    "message": [
+        "assessmentSectionId must be a UUID",
+        "assessmentSectionId should not be empty"
+    ],
+    "error": "Bad Request"
+}
+{
+    "statusCode": 400,
+    "message": [
+        "assessmentSectionId must be a UUID",
+        "assessmentSectionId should not be empty"
+    ],
+    "error": "Bad Request"
+}
+{
+    "statusCode": 400,
+    "message": [
+        "assessmentSectionId must be a UUID",
+        "assessmentSectionId should not be empty"
+    ],
+    "error": "Bad Request"
+}
+{
+    "statusCode": 400,
+    "message": [
+        "assessmentSectionId must be a UUID",
+        "assessmentSectionId should not be empty"
+    ],
+    "error": "Bad Request"
+}
+{
+    "statusCode": 400,
+    "message": [
+        "assessmentSectionId must be a UUID",
+        "assessmentSectionId should not be empty"
+    ],
+    "error": "Bad Request"
+}
+{
+    "statusCode": 400,
+    "message": [
+        "assessmentSectionId must be a UUID",
+        "assessmentSectionId should not be empty"
+    ],
+    "error": "Bad Request"
+}
+{
+    "statusCode": 400,
+    "message": [
+        "assessmentSectionId must be a UUID",
+        "assessmentSectionId should not be empty"
+    ],
+    "error": "Bad Request"
+}
+{
+    "statusCode": 400,
+    "message": [
+        "assessmentSectionId must be a UUID",
+        "assessmentSectionId should not be empty"
+    ],
+    "error": "Bad Request"
+}

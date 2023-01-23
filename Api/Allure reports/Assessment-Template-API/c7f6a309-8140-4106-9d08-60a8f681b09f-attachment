@@ -1,0 +1,21 @@
+{
+    "statusCode": 400,
+    "message": [
+        "detailedDescription should not be empty"
+    ],
+    "error": "Bad Request"
+}
+{
+    "statusCode": 400,
+    "message": [
+        "detailedDescription should not be empty"
+    ],
+    "error": "Bad Request"
+}
+{
+    "statusCode": 400,
+    "message": [
+        "detailedDescription should not be empty"
+    ],
+    "error": "Bad Request"
+}

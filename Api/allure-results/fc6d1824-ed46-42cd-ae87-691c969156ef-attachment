@@ -1,0 +1,19 @@
+{
+    "ok": true,
+    "error": false,
+    "warn": false,
+    "data": {
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbHZjIjoiYjYwNmFjMjYtNzE4Zi00YWQ4LWI5MzMtMmUwMTY0ZjRhZWU2IiwiaWF0IjoxNjc0MDIyNDI2LCJleHAiOjE2NzQwMjMwMjZ9.Mki5XmkcofBWhP6sS7YLS37W1P8ILNyD3Or9u5lrl0U"
+    },
+    "message": "Verified Successfully",
+    "code": "VERIFIED",
+    "statusCode": 200
+}
+{
+    "statusCode": 400,
+    "message": [
+        "password must be a string",
+        "password should not be empty"
+    ],
+    "error": "Bad Request"
+}

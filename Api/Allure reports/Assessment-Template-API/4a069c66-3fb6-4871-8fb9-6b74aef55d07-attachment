@@ -1,0 +1,58 @@
+[
+    {
+        "id": "82cccbae-22d3-42dd-b41d-47c41671f22f",
+        "updatedBy": "a7850217-fbe4-4964-b633-43b2f21c8e82",
+        "createdBy": "a7850217-fbe4-4964-b633-43b2f21c8e82",
+        "createdOn": "2022-12-27T08:26:48.712Z",
+        "updatedOn": "2022-12-27T08:26:48.712Z",
+        "assessmentTemplateName": "PERSONALITY ASSESMENT",
+        "detailedDescription": "Personality ASSesment for Black Rock",
+        "status": "New",
+        "comments": null
+    },
+    {
+        "id": "43d8bb9a-2a9b-412a-bb99-8e4f262cd70e",
+        "updatedBy": "a7850217-fbe4-4964-b633-43b2f21c8e82",
+        "createdBy": "a7850217-fbe4-4964-b633-43b2f21c8e82",
+        "createdOn": "2023-01-03T20:26:26.707Z",
+        "updatedOn": "2023-01-03T20:26:26.707Z",
+        "assessmentTemplateName": "hard questions",
+        "detailedDescription": "3434123",
+        "status": "cleared",
+        "comments": "done"
+    },
+    {
+        "id": "43e859df-96bf-4220-9050-f2d27916116a",
+        "updatedBy": "a7850217-fbe4-4964-b633-43b2f21c8e82",
+        "createdBy": "a7850217-fbe4-4964-b633-43b2f21c8e82",
+        "createdOn": "2023-01-03T06:28:11.070Z",
+        "updatedOn": "2023-01-03T19:55:17.620Z",
+        "assessmentTemplateName": "superhanddd",
+        "detailedDescription": "super hard level harddd",
+        "status": "%#%878655",
+        "comments": ""
+    },
+    {
+        "id": "eea3932b-f2e0-4c39-96fb-6f617ebe6fde",
+        "updatedBy": "a7850217-fbe4-4964-b633-43b2f21c8e82",
+        "createdBy": "a7850217-fbe4-4964-b633-43b2f21c8e82",
+        "createdOn": "2023-01-03T20:26:30.878Z",
+        "updatedOn": "2023-01-03T20:26:30.878Z",
+        "assessmentTemplateName": "superhand",
+        "detailedDescription": "super hard level hard",
+        "status": "%#%878655",
+        "comments": ""
+    }
+]
+{
+    "ok": true,
+    "error": false,
+    "warn": false,
+    "message": "\"Assessment Template\" updated successfully",
+    "statusCode": 201,
+    "errorData": null,
+    "data": {
+        
+    },
+    "code": 201
+}

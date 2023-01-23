@@ -1,0 +1,14 @@
+{
+    "statusCode": 400,
+    "message": [
+        "assessmentTemplateName should not be empty"
+    ],
+    "error": "Bad Request"
+}
+{
+    "statusCode": 400,
+    "message": [
+        "assessmentTemplateName should not be empty"
+    ],
+    "error": "Bad Request"
+}

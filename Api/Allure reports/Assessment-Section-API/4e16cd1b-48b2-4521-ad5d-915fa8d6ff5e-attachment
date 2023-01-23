@@ -1,0 +1,70 @@
+{
+    "statusCode": 400,
+    "message": [
+        "sectionNo must not be greater than 1000000",
+        "sectionNo should not be empty",
+        "sectionNo must be a number conforming to the specified constraints",
+        "comments must be a string"
+    ],
+    "error": "Bad Request"
+}
+{
+    "statusCode": 400,
+    "message": [
+        "sectionNo must not be greater than 1000000",
+        "sectionNo should not be empty",
+        "sectionNo must be a number conforming to the specified constraints",
+        "comments must be a string"
+    ],
+    "error": "Bad Request"
+}
+{
+    "statusCode": 400,
+    "message": [
+        "sectionNo must not be greater than 1000000",
+        "sectionNo should not be empty",
+        "sectionNo must be a number conforming to the specified constraints",
+        "comments must be a string"
+    ],
+    "error": "Bad Request"
+}
+{
+    "statusCode": 400,
+    "message": [
+        "sectionNo must not be greater than 1000000",
+        "sectionNo should not be empty",
+        "sectionNo must be a number conforming to the specified constraints",
+        "comments must be a string"
+    ],
+    "error": "Bad Request"
+}
+{
+    "statusCode": 400,
+    "message": [
+        "sectionNo must not be greater than 1000000",
+        "sectionNo should not be empty",
+        "sectionNo must be a number conforming to the specified constraints",
+        "comments must be a string"
+    ],
+    "error": "Bad Request"
+}
+{
+    "statusCode": 400,
+    "message": [
+        "sectionNo must not be greater than 1000000",
+        "sectionNo should not be empty",
+        "sectionNo must be a number conforming to the specified constraints",
+        "comments must be a string"
+    ],
+    "error": "Bad Request"
+}
+{
+    "statusCode": 400,
+    "message": [
+        "sectionNo must not be greater than 1000000",
+        "sectionNo should not be empty",
+        "sectionNo must be a number conforming to the specified constraints",
+        "comments must be a string"
+    ],
+    "error": "Bad Request"
+}

@@ -1,0 +1,45 @@
+package com.base;
+
+public class BaseClass{
+
+public static RequestSpecification request;
+
+
+public void baseUri(String Uri){
+
+request= RestAssured.given().header("Content-Type","application/json");
+RestAssured.baseURI=Uri;
+}
+
+public void queryParameter(String QueryparameterName, String QueryParameterValue){
+
+request.queryParam(QueryparameterName , QueryParameterValue);
+
+}
+public void pathParameter(String pathparameterName, String pathParameterValue){
+
+request.pathParam(pathparameterName , pathParameterValue);
+
+}
+
+public Response httpMethods(String methodName,String resources){
+
+if(methodName=="POST"){
+return request.request(Method.POST, "resources");
+elseif(methodName=="GET"){
+return request.request(Method.GET, "resources");
+}elseif(methodName=="PUT"){
+return request.request(Method.PUT, "resources");
+}else{
+return request.request(Method.DELETE, "resources");
+}}
+
+public void responseBody(String response){
+system.out.println(response.getBody().asPrettyString());
+}
+
+public void responseBody(String response){
+system.out.println(response.getStatusCode());
+}
+
+}

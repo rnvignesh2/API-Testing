@@ -1,0 +1,11 @@
+{
+    "ok": false,
+    "error": true,
+    "warn": false,
+    "errorData": {
+        "assessmentSectionId": "Assessment Section not found"
+    },
+    "statusCode": 400,
+    "code": "ASSESSMENT_SECTION_NOT_FOUND",
+    "message": "Assessment Section not found"
+}

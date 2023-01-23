@@ -1,0 +1,12 @@
+{
+    "ok": false,
+    "error": true,
+    "warn": false,
+    "errorData": {
+        "assessmentSection": "Assessment Section already exists",
+        "sectionName": "Assessment Section Name already exists"
+    },
+    "statusCode": 400,
+    "code": "ASSESSMENT_Section_ALREADY_EXISTS",
+    "message": "\"Assessment Section\" already exists. \"Assessment Section Name\" already exists."
+}

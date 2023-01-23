@@ -1,0 +1,30 @@
+{
+    "ok": true,
+    "error": false,
+    "warn": false,
+    "data": {
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbHZjIjoiMTg5MThiOWYtYzg2My00ZDA4LWFiOTktNWQ4N2VkNGIyMjdmIiwiaWF0IjoxNjc0MDc5OTcyLCJleHAiOjE2NzQwODA1NzJ9.H-Rjp9MF6KgIJhFTzxaGC2Jb9sKyzihWmKv5h8igtwA"
+    },
+    "message": "Verified Successfully",
+    "code": "VERIFIED",
+    "statusCode": 200
+}
+{
+    "ok": true,
+    "error": false,
+    "warn": false,
+    "data": {
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbHZjIjoiODZiMmEzN2ItYmE1OC00MGRmLWI3NmYtNjlhMmMwNTdhOGMyIiwiaWF0IjoxNjc0MDc5OTc2LCJleHAiOjE2NzQwODA1NzZ9.qAawQunJaqYikdpxXEaiFVNyApARfMHyf87fogrV7lY"
+    },
+    "message": "Login Successful",
+    "code": "PASSWORD_MATCHED",
+    "statusCode": 200
+}
+{
+    "ok": false,
+    "error": true,
+    "warn": true,
+    "message": "Login Timeout. Login Expired",
+    "code": "Login Timeout. Login Expired",
+    "statusCode": 500
+}

@@ -1,0 +1,51 @@
+Request method:	POST
+Request URI:	https://test.ouraipro.com/assessment/v1/api/assessment-user/verify/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "vignesh.n@pionglobal.com"
+}
+Request method:	POST
+Request URI:	https://test.ouraipro.com/assessment/v1/api/assessment-user/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbHZjIjoiZGIwY2Q2NTQtZThkMy00NGJmLWFiYjEtM2RiZGRlNDVlMmVmIiwiaWF0IjoxNjc0MDg0MDk0LCJleHAiOjE2NzQwODQ2OTR9.xCcffGXqSyu8rAONvj8g6XtW5vR7pRMwLgL-nFjEsTQ
+				Cookie=ae=s%3AeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbHYiOiIwYzM0MmEzNS1kZDJlLTRlMjctODExYi04OGZjNjQ0YWE0M2UiLCJpYXQiOjE2NzQwODQwOTQsImV4cCI6MTY3NDA4NDY5NH0.Y6wWcN-H0a61lurqeGrpTv7VrkLdBYYuw4KICaNG44g.S%2FTeCPAbeaTSzWM16xp9X4JDp0cyOKZmHil5hjOTvt8;Path=/;Domain=.ouraipro.com;Max-Age=300;Secure;HttpOnly;Expires=1/18/23 11:26 PM;SameSite=None
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "password": "Pass@123"
+}
+Request method:	POST
+Request URI:	https://test.ouraipro.com/assessment/v1/api/assessment-user/verify/login-code
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbHZjIjoiZGIwY2Q2NTQtZThkMy00NGJmLWFiYjEtM2RiZGRlNDVlMmVmIiwiaWF0IjoxNjc0MDg0MDk0LCJleHAiOjE2NzQwODQ2OTR9.xCcffGXqSyu8rAONvj8g6XtW5vR7pRMwLgL-nFjEsTQ
+				Cookie=ae=s%3AeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbHYiOiIwYzM0MmEzNS1kZDJlLTRlMjctODExYi04OGZjNjQ0YWE0M2UiLCJpYXQiOjE2NzQwODQwOTQsImV4cCI6MTY3NDA4NDY5NH0.Y6wWcN-H0a61lurqeGrpTv7VrkLdBYYuw4KICaNG44g.S%2FTeCPAbeaTSzWM16xp9X4JDp0cyOKZmHil5hjOTvt8;Path=/;Domain=.ouraipro.com;Max-Age=300;Secure;HttpOnly;Expires=1/18/23 11:26 PM;SameSite=None
+				Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbHZjIjoiODJkZDgwN2ItYWQwMC00ZGJlLTgzZWMtZjRmZGJjNjU1ZmJmIiwiaWF0IjoxNjc0MDg0MDk4LCJleHAiOjE2NzQwODQ2OTh9.f9qklKP8RrtrQoNA9usEIBfSRljengF1zkZTt0bxSFg
+				Cookie=_la=s%3AeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbHYiOiIwYTQ3OTBmZC1jMWVkLTQ2YzYtYjMwMS05NDRhMDc2N2JlMDAiLCJpYXQiOjE2NzQwODQwOTgsImV4cCI6MTY3NDA4NDY5OH0.ThkEowF66Ys7c-lL5-onqxmB4aoMR0t2DT0xKRNugn8.CWz4rnTAH8MV%2FCjTxc%2FXYoPIlg50EvDNfDcT2Qd6uZk
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "token": "531100"
+}
